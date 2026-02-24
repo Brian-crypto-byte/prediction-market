@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prediction Market Daily | 预测市场日报</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text" data-i18n="site_title">预测市场日报</span>
+      </div>
+      <div class="header-controls">
+        <div class="date-selector">
+          <button class="date-btn" id="prevDate">‹</button>
+          <span class="date-display" id="dateDisplay">--</span>
+          <button class="date-btn" id="nextDate">›</button>
+        </div>
+        <button class="lang-toggle" id="langToggle">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="hero">
+      <p class="hero-sub" data-i18n="hero_sub">每日精选 · 政治 · 经济 · 体育</p>
+      <div class="stats-row" id="statsRow"></div>
+    </div>
+
+    <div class="tabs" id="tabs">
+      <button class="tab active" data-cat="all" data-i18n="tab_all">全部</button>
+      <button class="tab" data-cat="politics" data-i18n="tab_politics">🏛 政治</button>
+      <button class="tab" data-cat="economics" data-i18n="tab_economics">📈 经济</button>
+      <button class="tab" data-cat="sports" data-i18n="tab_sports">🏆 体育</button>
+    </div>
+
+    <div class="cards-grid" id="cardsGrid">
+      <div class="loading" data-i18n="loading">加载中...</div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span data-i18n="footer_note">数据仅供参考，不构成投资建议</span>
+  </footer>
+
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
