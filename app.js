@@ -84,11 +84,21 @@ function buildCard(topic) {
   const catLabel = t('cat_' + topic.category);
   const settle = formatSettlement(topic.settlement);
   const { yes, no, yes_prob, no_prob } = topic.odds;
+  const source = topic.source || null;
+  const isBreaking = topic.breaking || false;
+
+  const sourceHtml = source ? `
+    <a class="source-link" href="${source.url}" target="_blank" rel="noopener">
+      <span class="source-icon">📰</span>
+      <span>${source.name}</span>
+    </a>` : '';
+
+  const breakingBadge = isBreaking ? `<span class="breaking-badge">🔴 BREAKING</span>` : '';
 
   return `
-    <div class="card" data-id="${topic.id}">
+    <div class="card ${isBreaking ? 'card-breaking' : ''}" data-id="${topic.id}">
       <div class="card-header">
-        <div class="card-title">${title}</div>
+        <div class="card-title">${breakingBadge}${title}</div>
         <span class="cat-badge ${topic.category}">${catLabel}</span>
       </div>
       <div class="rules">
@@ -101,9 +111,12 @@ function buildCard(topic) {
           <span>${noRule}</span>
         </div>
       </div>
-      <div class="settlement">
-        <span class="settlement-icon">🕐</span>
-        <span>${t('settlement_label')}: ${settle}</span>
+      <div class="card-footer">
+        <div class="settlement">
+          <span class="settlement-icon">🕐</span>
+          <span>${t('settlement_label')}: ${settle}</span>
+        </div>
+        ${sourceHtml}
       </div>
       <div class="odds-row">
         <div class="odds-btn yes-btn">

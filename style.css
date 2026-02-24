@@ -134,12 +134,32 @@ body {
 .rule.yes .rule-icon { color: var(--yes); }
 .rule.no .rule-icon { color: var(--no); }
 
+.card-footer {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap;
+}
 .settlement {
   display: flex; align-items: center; gap: 6px;
   font-size: 11px; color: var(--text3);
   font-family: 'JetBrains Mono', monospace;
 }
 .settlement-icon { font-size: 12px; }
+
+.source-link {
+  display: flex; align-items: center; gap: 4px;
+  font-size: 11px; color: var(--text3);
+  text-decoration: none; transition: color 0.15s;
+}
+.source-link:hover { color: var(--accent2); }
+.source-icon { font-size: 11px; }
+
+.breaking-badge {
+  display: inline-block; font-size: 10px; font-weight: 700;
+  color: #ff4444; margin-right: 6px; animation: blink 1.2s infinite;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+.card-breaking { border-color: rgba(255,68,68,0.4) !important; }
+.card-breaking:hover { border-color: #ff4444 !important; }
 
 /* ODDS */
 .odds-row { display: flex; gap: 8px; }

@@ -4,6 +4,7 @@
     {
       "id": "pol-001",
       "category": "politics",
+      "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
       "title": { "zh": "特朗普是否会在2026年3月前对中国加征新关税？", "en": "Will Trump impose new tariffs on China before March 2026?" },
       "rules": {
         "yes": { "zh": "2026年3月31日前，美国官方宣布对中国商品加征新一轮关税", "en": "US officially announces new tariffs on Chinese goods before March 31, 2026" },
@@ -15,6 +16,7 @@
     {
       "id": "pol-002",
       "category": "politics",
+      "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
       "title": { "zh": "法国2026年议会选举，极右翼国民联盟能否获得多数席位？", "en": "Will France's National Rally win a majority in the 2026 parliamentary elections?" },
       "rules": {
         "yes": { "zh": "国民联盟在2026年法国议会选举中获得超过289个席位", "en": "National Rally wins more than 289 seats in the 2026 French parliamentary elections" },
@@ -26,6 +28,7 @@
     {
       "id": "pol-003",
       "category": "politics",
+      "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
       "title": { "zh": "乌克兰停火协议能否在2026年上半年达成？", "en": "Will a Ukraine ceasefire agreement be reached in the first half of 2026?" },
       "rules": {
         "yes": { "zh": "2026年6月30日前，乌克兰与俄罗斯签署正式停火协议", "en": "Ukraine and Russia sign a formal ceasefire agreement before June 30, 2026" },
@@ -37,6 +40,7 @@
     {
       "id": "pol-004",
       "category": "politics",
+      "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
       "title": { "zh": "以色列与哈马斯停火协议第二阶段能否顺利推进？", "en": "Will the second phase of the Israel-Hamas ceasefire proceed smoothly?" },
       "rules": {
         "yes": { "zh": "2026年3月31日前，第二阶段谈判达成协议并开始执行", "en": "Phase 2 negotiations reach an agreement and begin implementation before March 31, 2026" },
@@ -48,6 +52,7 @@
     {
       "id": "pol-005",
       "category": "politics",
+      "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
       "title": { "zh": "德国新政府能否在2026年4月前完成组阁？", "en": "Will Germany's new government complete coalition formation before April 2026?" },
       "rules": {
         "yes": { "zh": "2026年4月1日前，德国新联合政府正式宣誓就职", "en": "Germany's new coalition government officially sworn in before April 1, 2026" },
@@ -59,6 +64,7 @@
     {
       "id": "pol-006",
       "category": "politics",
+      "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
       "title": { "zh": "伊朗核谈判能否在2026年内取得实质性突破？", "en": "Will Iran nuclear talks achieve a substantive breakthrough in 2026?" },
       "rules": {
         "yes": { "zh": "2026年12月31日前，伊朗与西方国家签署新核协议框架", "en": "Iran and Western nations sign a new nuclear agreement framework before December 31, 2026" },
@@ -70,6 +76,7 @@
     {
       "id": "pol-007",
       "category": "politics",
+      "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
       "title": { "zh": "菲律宾2026年中期选举，小马科斯阵营能否保住参议院多数？", "en": "Will Marcos Jr.'s bloc retain Senate majority in Philippines 2026 midterms?" },
       "rules": {
         "yes": { "zh": "小马科斯支持的候选人在2026年菲律宾中期选举中赢得12个参议院席位中的7席或以上", "en": "Marcos-backed candidates win 7 or more of the 12 Senate seats in the 2026 Philippine midterm elections" },
@@ -81,6 +88,7 @@
     {
       "id": "pol-008",
       "category": "politics",
+      "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
       "title": { "zh": "台湾2026年地方选举，民进党能否守住主要县市？", "en": "Will Taiwan's DPP hold major counties in the 2026 local elections?" },
       "rules": {
         "yes": { "zh": "民进党在2026年台湾地方选举中守住台北、新北、桃园三市中至少两席", "en": "DPP retains at least 2 of Taipei, New Taipei, and Taoyuan in the 2026 local elections" },
@@ -92,6 +100,7 @@
     {
       "id": "pol-009",
       "category": "politics",
+      "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
       "title": { "zh": "联合国安理会能否在2026年通过新的气候制裁决议？", "en": "Will the UN Security Council pass a new climate sanctions resolution in 2026?" },
       "rules": {
         "yes": { "zh": "2026年12月31日前，联合国安理会通过具有约束力的气候相关制裁决议", "en": "UN Security Council passes a binding climate-related sanctions resolution before December 31, 2026" },
@@ -103,6 +112,7 @@
     {
       "id": "pol-010",
       "category": "politics",
+      "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
       "title": { "zh": "美国2026年中期选举，共和党能否保住众议院多数？", "en": "Will Republicans retain the House majority in the 2026 US midterm elections?" },
       "rules": {
         "yes": { "zh": "共和党在2026年11月美国中期选举后仍控制众议院多数席位", "en": "Republicans control a majority of House seats after the November 2026 US midterm elections" },
@@ -110,226 +120,6 @@
       },
       "settlement": "2026-11-10T23:59:00Z",
       "odds": { "yes": 1.85, "no": 2.00, "yes_prob": 54, "no_prob": 46 }
-    },
-    {
-      "id": "eco-001",
-      "category": "economics",
-      "title": { "zh": "美联储2026年3月议息会议是否会降息？", "en": "Will the Fed cut rates at its March 2026 FOMC meeting?" },
-      "rules": {
-        "yes": { "zh": "美联储在2026年3月议息会议上宣布降息至少25个基点", "en": "The Fed announces a rate cut of at least 25bps at its March 2026 FOMC meeting" },
-        "no": { "zh": "美联储维持利率不变或加息", "en": "The Fed holds rates steady or raises them" }
-      },
-      "settlement": "2026-03-20T23:59:00Z",
-      "odds": { "yes": 2.50, "no": 1.55, "yes_prob": 40, "no_prob": 60 }
-    },
-    {
-      "id": "eco-002",
-      "category": "economics",
-      "title": { "zh": "比特币能否在2026年Q1突破15万美元？", "en": "Will Bitcoin break $150,000 in Q1 2026?" },
-      "rules": {
-        "yes": { "zh": "比特币现货价格在2026年3月31日前任意时刻达到或超过150,000美元", "en": "Bitcoin spot price reaches or exceeds $150,000 at any point before March 31, 2026" },
-        "no": { "zh": "比特币在Q1结束前未能突破150,000美元", "en": "Bitcoin fails to reach $150,000 before the end of Q1" }
-      },
-      "settlement": "2026-03-31T23:59:00Z",
-      "odds": { "yes": 2.20, "no": 1.70, "yes_prob": 45, "no_prob": 55 }
-    },
-    {
-      "id": "eco-003",
-      "category": "economics",
-      "title": { "zh": "欧元区2026年Q1 GDP增速是否会超过0.5%？", "en": "Will Eurozone Q1 2026 GDP growth exceed 0.5%?" },
-      "rules": {
-        "yes": { "zh": "欧盟统计局公布的2026年Q1欧元区GDP环比增速超过0.5%", "en": "Eurostat reports Eurozone Q1 2026 GDP growth exceeding 0.5% quarter-on-quarter" },
-        "no": { "zh": "增速等于或低于0.5%", "en": "Growth rate equals or falls below 0.5%" }
-      },
-      "settlement": "2026-06-30T23:59:00Z",
-      "odds": { "yes": 2.90, "no": 1.42, "yes_prob": 34, "no_prob": 66 }
-    },
-    {
-      "id": "eco-004",
-      "category": "economics",
-      "title": { "zh": "黄金价格能否在2026年内突破3500美元/盎司？", "en": "Will gold price break $3,500/oz in 2026?" },
-      "rules": {
-        "yes": { "zh": "伦敦金现货价格在2026年12月31日前任意时刻达到或超过3,500美元/盎司", "en": "London spot gold reaches or exceeds $3,500/oz at any point before December 31, 2026" },
-        "no": { "zh": "年内未能突破3,500美元/盎司", "en": "Fails to reach $3,500/oz within the year" }
-      },
-      "settlement": "2026-12-31T23:59:00Z",
-      "odds": { "yes": 1.95, "no": 1.90, "yes_prob": 51, "no_prob": 49 }
-    },
-    {
-      "id": "eco-005",
-      "category": "economics",
-      "title": { "zh": "中国2026年Q1 GDP增速是否能达到5%以上？", "en": "Will China's Q1 2026 GDP growth reach above 5%?" },
-      "rules": {
-        "yes": { "zh": "中国国家统计局公布的2026年Q1 GDP同比增速达到或超过5.0%", "en": "China's NBS reports Q1 2026 GDP growth at or above 5.0% year-on-year" },
-        "no": { "zh": "增速低于5.0%", "en": "Growth rate falls below 5.0%" }
-      },
-      "settlement": "2026-04-30T23:59:00Z",
-      "odds": { "yes": 1.80, "no": 2.05, "yes_prob": 56, "no_prob": 44 }
-    },
-    {
-      "id": "eco-006",
-      "category": "economics",
-      "title": { "zh": "英伟达市值能否在2026年内突破5万亿美元？", "en": "Will Nvidia's market cap exceed $5 trillion in 2026?" },
-      "rules": {
-        "yes": { "zh": "英伟达股票市值在2026年12月31日前任意交易日收盘时达到或超过5万亿美元", "en": "Nvidia's market cap reaches or exceeds $5 trillion at any market close before December 31, 2026" },
-        "no": { "zh": "年内未能达到5万亿美元市值", "en": "Fails to reach $5 trillion market cap within the year" }
-      },
-      "settlement": "2026-12-31T23:59:00Z",
-      "odds": { "yes": 2.40, "no": 1.60, "yes_prob": 42, "no_prob": 58 }
-    },
-    {
-      "id": "eco-007",
-      "category": "economics",
-      "title": { "zh": "美国2026年3月CPI同比涨幅是否会低于3%？", "en": "Will US CPI year-on-year for March 2026 fall below 3%?" },
-      "rules": {
-        "yes": { "zh": "美国劳工统计局公布的2026年3月CPI同比涨幅低于3.0%", "en": "US BLS reports March 2026 CPI year-on-year below 3.0%" },
-        "no": { "zh": "3月CPI同比涨幅等于或高于3.0%", "en": "March CPI year-on-year equals or exceeds 3.0%" }
-      },
-      "settlement": "2026-04-15T23:59:00Z",
-      "odds": { "yes": 2.10, "no": 1.75, "yes_prob": 48, "no_prob": 52 }
-    },
-    {
-      "id": "eco-008",
-      "category": "economics",
-      "title": { "zh": "以太坊能否在2026年Q2前突破5000美元？", "en": "Will Ethereum break $5,000 before Q2 2026?" },
-      "rules": {
-        "yes": { "zh": "以太坊现货价格在2026年3月31日前任意时刻达到或超过5,000美元", "en": "Ethereum spot price reaches or exceeds $5,000 at any point before March 31, 2026" },
-        "no": { "zh": "Q1结束前未能突破5,000美元", "en": "Fails to reach $5,000 before the end of Q1" }
-      },
-      "settlement": "2026-03-31T23:59:00Z",
-      "odds": { "yes": 3.10, "no": 1.38, "yes_prob": 32, "no_prob": 68 }
-    },
-    {
-      "id": "eco-009",
-      "category": "economics",
-      "title": { "zh": "日本央行2026年上半年是否会再次加息？", "en": "Will the Bank of Japan raise rates again in H1 2026?" },
-      "rules": {
-        "yes": { "zh": "日本央行在2026年6月30日前宣布加息至少10个基点", "en": "Bank of Japan announces a rate hike of at least 10bps before June 30, 2026" },
-        "no": { "zh": "上半年内维持利率不变", "en": "Rates held steady throughout H1" }
-      },
-      "settlement": "2026-06-30T23:59:00Z",
-      "odds": { "yes": 1.70, "no": 2.20, "yes_prob": 59, "no_prob": 41 }
-    },
-    {
-      "id": "eco-010",
-      "category": "economics",
-      "title": { "zh": "特斯拉2026年Q1交付量是否会超过50万辆？", "en": "Will Tesla deliver more than 500,000 vehicles in Q1 2026?" },
-      "rules": {
-        "yes": { "zh": "特斯拉官方公布的2026年Q1全球交付量超过500,000辆", "en": "Tesla's official Q1 2026 global deliveries exceed 500,000 vehicles" },
-        "no": { "zh": "Q1交付量等于或低于500,000辆", "en": "Q1 deliveries equal or fall below 500,000 vehicles" }
-      },
-      "settlement": "2026-04-05T23:59:00Z",
-      "odds": { "yes": 1.85, "no": 2.00, "yes_prob": 54, "no_prob": 46 }
-    },
-    {
-      "id": "spo-001",
-      "category": "sports",
-      "title": { "zh": "2026年NBA总冠军是否会是波士顿凯尔特人？", "en": "Will the Boston Celtics win the 2026 NBA Championship?" },
-      "rules": {
-        "yes": { "zh": "波士顿凯尔特人赢得2026年NBA总冠军", "en": "Boston Celtics win the 2026 NBA Championship" },
-        "no": { "zh": "其他球队赢得2026年NBA总冠军", "en": "Another team wins the 2026 NBA Championship" }
-      },
-      "settlement": "2026-06-30T23:59:00Z",
-      "odds": { "yes": 3.50, "no": 1.29, "yes_prob": 29, "no_prob": 71 }
-    },
-    {
-      "id": "spo-002",
-      "category": "sports",
-      "title": { "zh": "2026年FIFA世界杯，巴西能否夺冠？", "en": "Will Brazil win the 2026 FIFA World Cup?" },
-      "rules": {
-        "yes": { "zh": "巴西国家队赢得2026年FIFA世界杯冠军", "en": "Brazil national team wins the 2026 FIFA World Cup" },
-        "no": { "zh": "其他国家队赢得世界杯冠军", "en": "Another national team wins the World Cup" }
-      },
-      "settlement": "2026-07-20T23:59:00Z",
-      "odds": { "yes": 5.50, "no": 1.18, "yes_prob": 18, "no_prob": 82 }
-    },
-    {
-      "id": "spo-003",
-      "category": "sports",
-      "title": { "zh": "2026年澳网男单，德约科维奇能否夺冠？", "en": "Will Djokovic win the 2026 Australian Open men's singles?" },
-      "rules": {
-        "yes": { "zh": "诺瓦克·德约科维奇赢得2026年澳大利亚网球公开赛男单冠军", "en": "Novak Djokovic wins the 2026 Australian Open men's singles title" },
-        "no": { "zh": "其他球员赢得2026年澳网男单冠军", "en": "Another player wins the 2026 Australian Open men's singles" }
-      },
-      "settlement": "2026-02-01T23:59:00Z",
-      "odds": { "yes": 2.75, "no": 1.48, "yes_prob": 36, "no_prob": 64 }
-    },
-    {
-      "id": "spo-004",
-      "category": "sports",
-      "title": { "zh": "2025-26赛季欧冠，皇家马德里能否卫冕？", "en": "Will Real Madrid defend their Champions League title in 2025-26?" },
-      "rules": {
-        "yes": { "zh": "皇家马德里赢得2025-26赛季UEFA欧洲冠军联赛冠军", "en": "Real Madrid wins the 2025-26 UEFA Champions League" },
-        "no": { "zh": "其他俱乐部赢得本赛季欧冠冠军", "en": "Another club wins the Champions League this season" }
-      },
-      "settlement": "2026-06-01T23:59:00Z",
-      "odds": { "yes": 4.20, "no": 1.24, "yes_prob": 24, "no_prob": 76 }
-    },
-    {
-      "id": "spo-005",
-      "category": "sports",
-      "title": { "zh": "2026年F1世界车手冠军，维斯塔潘能否四连冠？", "en": "Will Verstappen win a fourth consecutive F1 World Drivers' Championship in 2026?" },
-      "rules": {
-        "yes": { "zh": "马克斯·维斯塔潘赢得2026年F1世界车手冠军", "en": "Max Verstappen wins the 2026 F1 World Drivers' Championship" },
-        "no": { "zh": "其他车手赢得2026年F1车手冠军", "en": "Another driver wins the 2026 F1 championship" }
-      },
-      "settlement": "2026-12-01T23:59:00Z",
-      "odds": { "yes": 2.60, "no": 1.52, "yes_prob": 38, "no_prob": 62 }
-    },
-    {
-      "id": "spo-006",
-      "category": "sports",
-      "title": { "zh": "2026年温网男单，阿尔卡拉斯能否卫冕？", "en": "Will Alcaraz defend his Wimbledon men's singles title in 2026?" },
-      "rules": {
-        "yes": { "zh": "卡洛斯·阿尔卡拉斯赢得2026年温布尔登网球锦标赛男单冠军", "en": "Carlos Alcaraz wins the 2026 Wimbledon men's singles title" },
-        "no": { "zh": "其他球员赢得2026年温网男单冠军", "en": "Another player wins the 2026 Wimbledon men's singles" }
-      },
-      "settlement": "2026-07-15T23:59:00Z",
-      "odds": { "yes": 2.90, "no": 1.42, "yes_prob": 34, "no_prob": 66 }
-    },
-    {
-      "id": "spo-007",
-      "category": "sports",
-      "title": { "zh": "2026年超级碗，堪萨斯城酋长队能否三连冠？", "en": "Will the Kansas City Chiefs win a third consecutive Super Bowl in 2026?" },
-      "rules": {
-        "yes": { "zh": "堪萨斯城酋长队赢得2026年超级碗冠军", "en": "Kansas City Chiefs win Super Bowl 2026" },
-        "no": { "zh": "其他球队赢得2026年超级碗冠军", "en": "Another team wins Super Bowl 2026" }
-      },
-      "settlement": "2026-02-10T23:59:00Z",
-      "odds": { "yes": 3.80, "no": 1.26, "yes_prob": 26, "no_prob": 74 }
-    },
-    {
-      "id": "spo-008",
-      "category": "sports",
-      "title": { "zh": "2026年法网男单，纳达尔是否会复出参赛？", "en": "Will Nadal make a comeback and compete at Roland Garros 2026?" },
-      "rules": {
-        "yes": { "zh": "拉法·纳达尔正式报名并参加2026年法国网球公开赛正赛", "en": "Rafael Nadal officially enters and competes in the 2026 French Open main draw" },
-        "no": { "zh": "纳达尔未参加2026年法网正赛", "en": "Nadal does not compete in the 2026 French Open main draw" }
-      },
-      "settlement": "2026-06-10T23:59:00Z",
-      "odds": { "yes": 4.50, "no": 1.22, "yes_prob": 22, "no_prob": 78 }
-    },
-    {
-      "id": "spo-009",
-      "category": "sports",
-      "title": { "zh": "2025-26赛季英超冠军，曼城能否夺回冠军？", "en": "Will Manchester City reclaim the Premier League title in 2025-26?" },
-      "rules": {
-        "yes": { "zh": "曼彻斯特城赢得2025-26赛季英格兰超级联赛冠军", "en": "Manchester City wins the 2025-26 English Premier League title" },
-        "no": { "zh": "其他俱乐部赢得本赛季英超冠军", "en": "Another club wins the Premier League this season" }
-      },
-      "settlement": "2026-05-25T23:59:00Z",
-      "odds": { "yes": 3.20, "no": 1.35, "yes_prob": 31, "no_prob": 69 }
-    },
-    {
-      "id": "spo-010",
-      "category": "sports",
-      "title": { "zh": "2026年世界杯，阿根廷能否卫冕？", "en": "Will Argentina defend their World Cup title in 2026?" },
-      "rules": {
-        "yes": { "zh": "阿根廷国家队赢得2026年FIFA世界杯冠军", "en": "Argentina national team wins the 2026 FIFA World Cup" },
-        "no": { "zh": "其他国家队赢得2026年世界杯冠军", "en": "Another national team wins the 2026 World Cup" }
-      },
-      "settlement": "2026-07-20T23:59:00Z",
-      "odds": { "yes": 4.80, "no": 1.21, "yes_prob": 21, "no_prob": 79 }
     }
   ]
 }
