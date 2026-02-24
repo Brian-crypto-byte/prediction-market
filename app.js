@@ -22,22 +22,30 @@ function formatSettlement(isoStr) {
   });
 }
 
-// Load data
-async function loadData(dateStr) {
+// Load data — fallback up to 7 days back if today's file missing
+async function loadData(dateStr, fallbackDepth = 0) {
   const grid = document.getElementById('cardsGrid');
-  grid.innerHTML = `<div class="loading">${t('loading')}</div>`;
+  if (fallbackDepth === 0) grid.innerHTML = `<div class="loading">${t('loading')}</div>`;
   try {
     const res = await fetch(`data/${dateStr}.json?v=${Date.now()}`);
     if (!res.ok) throw new Error('not found');
     const json = await res.json();
-    allTopics = json.topics || [];
+    if (!json.topics || json.topics.length === 0) throw new Error('empty');
+    allTopics = json.topics;
+    currentDate = dateStr;
     document.getElementById('dateDisplay').textContent = formatDate(dateStr);
     renderStats();
     renderCards();
   } catch {
-    allTopics = [];
-    grid.innerHTML = `<div class="loading">${t('no_data')}</div>`;
-    renderStats();
+    if (fallbackDepth < 7) {
+      const d = new Date(dateStr + 'T00:00:00');
+      d.setDate(d.getDate() - 1);
+      loadData(d.toISOString().slice(0, 10), fallbackDepth + 1);
+    } else {
+      allTopics = [];
+      grid.innerHTML = `<div class="loading">${t('no_data')}</div>`;
+      renderStats();
+    }
   }
 }
 
