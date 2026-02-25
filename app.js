@@ -104,23 +104,38 @@ const CATEGORIES = [
   { id: 'culture',       color: 'var(--cul)', statKey: 'stat_culture' },
 ];
 
-// Stats row — only show categories that have topics today
+// Stats — update count badges on each tab
 function renderStats() {
   const counts = {};
   allTopics.forEach(topic => {
     const cat = canonicalCat(topic.category);
     counts[cat] = (counts[cat] || 0) + 1;
   });
-  const row = document.getElementById('statsRow');
-  row.innerHTML = CATEGORIES
-    .filter(c => counts[c.id] > 0)
-    .map(c => `
-      <div class="stat-chip">
-        <span class="stat-dot" style="background:${c.color}"></span>
-        <span class="stat-num">${counts[c.id]}</span>
-        <span class="stat-label">${t(c.statKey)}</span>
-      </div>
-    `).join('');
+  const total = allTopics.length;
+
+  // Update archive info
+  const archiveEl = document.getElementById('archiveInfo');
+  if (archiveEl && availableDates.length > 0) {
+    const totalTopics = availableDates.length * 30;
+    archiveEl.innerHTML = currentLang === 'zh'
+      ? `📚 已收录 <strong>${availableDates.length}</strong> 天 · <strong>${totalTopics}</strong> 条话题`
+      : `📚 <strong>${availableDates.length}</strong> days · <strong>${totalTopics}</strong> topics archived`;
+  }
+
+  // Update count badges on each tab
+  document.querySelectorAll('.tab[data-cat]').forEach(tab => {
+    const cat = tab.dataset.cat;
+    const n = cat === 'all' ? total : (counts[cat] || 0);
+    // remove old badge if exists
+    const old = tab.querySelector('.tab-count');
+    if (old) old.remove();
+    if (n > 0) {
+      const badge = document.createElement('span');
+      badge.className = 'tab-count';
+      badge.textContent = n;
+      tab.appendChild(badge);
+    }
+  });
 }
 
 // Cards
