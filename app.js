@@ -84,7 +84,6 @@ function renderNavState() {
 // Category config (order = display order)
 const CATEGORIES = [
   { id: 'politics',      color: 'var(--pol)', statKey: 'stat_politics' },
-  { id: 'geopolitics',   color: 'var(--geo)', statKey: 'stat_geopolitics' },
   { id: 'elections',     color: 'var(--ele)', statKey: 'stat_elections' },
   { id: 'finance',       color: 'var(--fin)', statKey: 'stat_finance' },
   { id: 'economics',     color: 'var(--eco)', statKey: 'stat_finance' },   // old data compat
@@ -94,8 +93,6 @@ const CATEGORIES = [
   { id: 'tech',          color: 'var(--tec)', statKey: 'stat_tech' },
   { id: 'sports',        color: 'var(--spo)', statKey: 'stat_sports' },
   { id: 'culture',       color: 'var(--cul)', statKey: 'stat_culture' },
-  { id: 'climate',       color: 'var(--cli)', statKey: 'stat_climate' },
-  { id: 'mentions',      color: 'var(--men)', statKey: 'stat_mentions' },
 ];
 
 // Stats row — only show categories that have topics today
