@@ -153,12 +153,36 @@ function renderCards() {
 
 function buildCard(topic) {
   const lang = currentLang;
-  const title = topic.title[lang] || topic.title.zh;
-  const yesRule = topic.rules.yes[lang] || topic.rules.yes.zh;
-  const noRule = topic.rules.no[lang] || topic.rules.no.zh;
-  const catLabel = t('cat_' + topic.category);
-  const settle = formatSettlement(topic.settlement);
-  const { yes, no, yes_prob, no_prob } = topic.odds;
+
+  // 兼容新旧两种数据格式
+  const title = topic.title
+    ? (topic.title[lang] || topic.title.zh || topic.title.en || '')
+    : (topic.question || '');
+
+  const yesRule = topic.rules
+    ? (topic.rules.yes[lang] || topic.rules.yes.zh || '')
+    : (lang === 'zh' ? '是' : 'Yes');
+  const noRule = topic.rules
+    ? (topic.rules.no[lang] || topic.rules.no.zh || '')
+    : (lang === 'zh' ? '否' : 'No');
+
+  const settle = topic.settlement
+    ? formatSettlement(topic.settlement)
+    : formatSettlement(topic.endDate || new Date().toISOString());
+
+  let yes, no, yes_prob, no_prob;
+  if (topic.odds) {
+    ({ yes, no, yes_prob, no_prob } = topic.odds);
+  } else if (topic.outcomes) {
+    yes = topic.outcomes.yes || 0;
+    no  = topic.outcomes.no  || 0;
+    yes_prob = Math.round(yes * 100);
+    no_prob  = Math.round(no  * 100);
+  } else {
+    yes = no = 0.5; yes_prob = no_prob = 50;
+  }
+
+  const catLabel = t('cat_' + topic.category) || topic.category;
   const source = topic.source || null;
   const isBreaking = topic.breaking || false;
 
