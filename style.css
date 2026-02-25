@@ -13,8 +13,18 @@
   --text2: #8b90a0;
   --text3: #555c70;
   --pol: #7c6fff;
+  --geo: #e74c3c;
+  --ele: #9b59b6;
+  --fin: #00c8a0;
   --eco: #00c8a0;
+  --wec: #27ae60;
+  --ear: #f39c12;
+  --cry: #f1c40f;
+  --tec: #3498db;
   --spo: #ff8c42;
+  --cul: #e91e63;
+  --cli: #1abc9c;
+  --men: #95a5a6;
   --radius: 12px;
   --shadow: 0 4px 24px rgba(0,0,0,0.4);
 }
@@ -85,12 +95,13 @@ body {
 .stat-chip .stat-label { color: var(--text2); }
 
 /* TABS */
-.tabs { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+.tabs-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; margin-bottom: 24px; padding-bottom: 4px; }
+.tabs { display: flex; gap: 8px; width: max-content; min-width: 100%; }
 .tab {
   background: var(--bg2); border: 1px solid var(--border);
-  color: var(--text2); padding: 8px 18px; border-radius: 8px;
+  color: var(--text2); padding: 8px 16px; border-radius: 8px;
   cursor: pointer; font-size: 13px; font-weight: 500;
-  transition: all 0.15s;
+  transition: all 0.15s; white-space: nowrap;
 }
 .tab:hover { border-color: var(--accent); color: var(--text); }
 .tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
@@ -122,9 +133,19 @@ body {
   padding: 3px 8px; border-radius: 4px; white-space: nowrap; flex-shrink: 0;
   text-transform: uppercase;
 }
-.cat-badge.politics { background: rgba(124,111,255,0.15); color: var(--pol); }
-.cat-badge.economics { background: rgba(0,200,160,0.15); color: var(--eco); }
-.cat-badge.sports { background: rgba(255,140,66,0.15); color: var(--spo); }
+.cat-badge.politics      { background: rgba(124,111,255,0.15); color: var(--pol); }
+.cat-badge.geopolitics   { background: rgba(231, 76, 60,0.15); color: var(--geo); }
+.cat-badge.elections     { background: rgba(155, 89,182,0.15); color: var(--ele); }
+.cat-badge.finance       { background: rgba(0,200,160,0.15);   color: var(--fin); }
+.cat-badge.economics     { background: rgba(0,200,160,0.15);   color: var(--eco); }
+.cat-badge.world-economy { background: rgba( 39,174, 96,0.15); color: var(--wec); }
+.cat-badge.earnings      { background: rgba(243,156, 18,0.15); color: var(--ear); }
+.cat-badge.crypto        { background: rgba(241,196, 15,0.15); color: var(--cry); }
+.cat-badge.tech          { background: rgba( 52,152,219,0.15); color: var(--tec); }
+.cat-badge.sports        { background: rgba(255,140, 66,0.15); color: var(--spo); }
+.cat-badge.culture       { background: rgba(233, 30, 99,0.15); color: var(--cul); }
+.cat-badge.climate       { background: rgba( 26,188,156,0.15); color: var(--cli); }
+.cat-badge.mentions      { background: rgba(149,165,166,0.15); color: var(--men); }
 
 .rules { display: flex; flex-direction: column; gap: 6px; }
 .rule {

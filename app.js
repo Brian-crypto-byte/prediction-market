@@ -81,20 +81,39 @@ function renderNavState() {
   }
 }
 
-// Stats row
+// Category config (order = display order)
+const CATEGORIES = [
+  { id: 'politics',      color: 'var(--pol)', statKey: 'stat_politics' },
+  { id: 'geopolitics',   color: 'var(--geo)', statKey: 'stat_geopolitics' },
+  { id: 'elections',     color: 'var(--ele)', statKey: 'stat_elections' },
+  { id: 'finance',       color: 'var(--fin)', statKey: 'stat_finance' },
+  { id: 'economics',     color: 'var(--eco)', statKey: 'stat_finance' },   // old data compat
+  { id: 'world-economy', color: 'var(--wec)', statKey: 'stat_world_economy' },
+  { id: 'earnings',      color: 'var(--ear)', statKey: 'stat_earnings' },
+  { id: 'crypto',        color: 'var(--cry)', statKey: 'stat_crypto' },
+  { id: 'tech',          color: 'var(--tec)', statKey: 'stat_tech' },
+  { id: 'sports',        color: 'var(--spo)', statKey: 'stat_sports' },
+  { id: 'culture',       color: 'var(--cul)', statKey: 'stat_culture' },
+  { id: 'climate',       color: 'var(--cli)', statKey: 'stat_climate' },
+  { id: 'mentions',      color: 'var(--men)', statKey: 'stat_mentions' },
+];
+
+// Stats row — only show categories that have topics today
 function renderStats() {
-  const counts = { politics: 0, economics: 0, sports: 0 };
-  allTopics.forEach(t => { if (counts[t.category] !== undefined) counts[t.category]++; });
-  const colors = { politics: 'var(--pol)', economics: 'var(--eco)', sports: 'var(--spo)' };
-  const labels = { politics: t('stat_politics'), economics: t('stat_economics'), sports: t('stat_sports') };
+  const counts = {};
+  allTopics.forEach(topic => {
+    counts[topic.category] = (counts[topic.category] || 0) + 1;
+  });
   const row = document.getElementById('statsRow');
-  row.innerHTML = Object.entries(counts).map(([cat, num]) => `
-    <div class="stat-chip">
-      <span class="stat-dot" style="background:${colors[cat]}"></span>
-      <span class="stat-num">${num}</span>
-      <span class="stat-label">${labels[cat]}</span>
-    </div>
-  `).join('');
+  row.innerHTML = CATEGORIES
+    .filter(c => counts[c.id] > 0)
+    .map(c => `
+      <div class="stat-chip">
+        <span class="stat-dot" style="background:${c.color}"></span>
+        <span class="stat-num">${counts[c.id]}</span>
+        <span class="stat-label">${t(c.statKey)}</span>
+      </div>
+    `).join('');
 }
 
 // Cards
