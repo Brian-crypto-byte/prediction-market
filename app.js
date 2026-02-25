@@ -81,14 +81,23 @@ function renderNavState() {
   }
 }
 
+// Category alias map — old/merged categories → canonical tab id
+const CAT_ALIAS = {
+  'economics':    'world-economy',
+  'finance':      'world-economy',
+  'earnings':     'world-economy',
+  'world-economy':'world-economy',
+};
+
+function canonicalCat(cat) {
+  return CAT_ALIAS[cat] || cat;
+}
+
 // Category config (order = display order)
 const CATEGORIES = [
   { id: 'politics',      color: 'var(--pol)', statKey: 'stat_politics' },
   { id: 'elections',     color: 'var(--ele)', statKey: 'stat_elections' },
-  { id: 'finance',       color: 'var(--fin)', statKey: 'stat_finance' },
-  { id: 'economics',     color: 'var(--eco)', statKey: 'stat_finance' },   // old data compat
   { id: 'world-economy', color: 'var(--wec)', statKey: 'stat_world_economy' },
-  { id: 'earnings',      color: 'var(--ear)', statKey: 'stat_earnings' },
   { id: 'crypto',        color: 'var(--cry)', statKey: 'stat_crypto' },
   { id: 'tech',          color: 'var(--tec)', statKey: 'stat_tech' },
   { id: 'sports',        color: 'var(--spo)', statKey: 'stat_sports' },
@@ -99,7 +108,8 @@ const CATEGORIES = [
 function renderStats() {
   const counts = {};
   allTopics.forEach(topic => {
-    counts[topic.category] = (counts[topic.category] || 0) + 1;
+    const cat = canonicalCat(topic.category);
+    counts[cat] = (counts[cat] || 0) + 1;
   });
   const row = document.getElementById('statsRow');
   row.innerHTML = CATEGORIES
@@ -116,7 +126,9 @@ function renderStats() {
 // Cards
 function renderCards() {
   const grid = document.getElementById('cardsGrid');
-  const filtered = currentCat === 'all' ? allTopics : allTopics.filter(t => t.category === currentCat);
+  const filtered = currentCat === 'all'
+    ? allTopics
+    : allTopics.filter(t => canonicalCat(t.category) === currentCat);
   if (!filtered.length) {
     grid.innerHTML = `<div class="loading">${t('no_data')}</div>`;
     return;

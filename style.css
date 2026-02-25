@@ -134,18 +134,15 @@ body {
   text-transform: uppercase;
 }
 .cat-badge.politics      { background: rgba(124,111,255,0.15); color: var(--pol); }
-.cat-badge.geopolitics   { background: rgba(231, 76, 60,0.15); color: var(--geo); }
 .cat-badge.elections     { background: rgba(155, 89,182,0.15); color: var(--ele); }
-.cat-badge.finance       { background: rgba(0,200,160,0.15);   color: var(--fin); }
-.cat-badge.economics     { background: rgba(0,200,160,0.15);   color: var(--eco); }
+.cat-badge.finance,
+.cat-badge.economics,
+.cat-badge.earnings,
 .cat-badge.world-economy { background: rgba( 39,174, 96,0.15); color: var(--wec); }
-.cat-badge.earnings      { background: rgba(243,156, 18,0.15); color: var(--ear); }
 .cat-badge.crypto        { background: rgba(241,196, 15,0.15); color: var(--cry); }
 .cat-badge.tech          { background: rgba( 52,152,219,0.15); color: var(--tec); }
 .cat-badge.sports        { background: rgba(255,140, 66,0.15); color: var(--spo); }
 .cat-badge.culture       { background: rgba(233, 30, 99,0.15); color: var(--cul); }
-.cat-badge.climate       { background: rgba( 26,188,156,0.15); color: var(--cli); }
-.cat-badge.mentions      { background: rgba(149,165,166,0.15); color: var(--men); }
 
 .rules { display: flex; flex-direction: column; gap: 6px; }
 .rule {
