@@ -1,0 +1,485 @@
+{
+  "date": "2026-02-25-test3",
+  "topics": [
+    {
+      "id": "pol-001",
+      "category": "politics",
+      "question": "曼德尔森的律师能否在2026年3月底前成功推翻法院对其\"潜逃风险\"的认定？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Politics",
+        "url": "https://www.bbc.com/news/politics"
+      },
+      "outcomes": {
+        "yes": 0.62,
+        "no": 0.38
+      },
+      "volume": 52000,
+      "liquidity": 26000
+    },
+    {
+      "id": "pol-002",
+      "category": "politics",
+      "question": "威尔士议会能否在2026年底前正式立法允许NHS提供辅助死亡服务？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Politics",
+        "url": "https://www.bbc.com/news/politics"
+      },
+      "outcomes": {
+        "yes": 0.47,
+        "no": 0.53
+      },
+      "volume": 45000,
+      "liquidity": 22000
+    },
+    {
+      "id": "pol-003",
+      "category": "politics",
+      "question": "英国议会能否在2026年6月前正式公开安德鲁王子贸易职务相关全部文件？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Politics",
+        "url": "https://www.bbc.com/news/politics"
+      },
+      "outcomes": {
+        "yes": 0.69,
+        "no": 0.31
+      },
+      "volume": 38000,
+      "liquidity": 19000
+    },
+    {
+      "id": "pol-004",
+      "category": "politics",
+      "question": "英国议会能否在2026年底前就安德鲁王子问题推动实质性制度改革？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Politics",
+        "url": "https://www.bbc.com/news/politics"
+      },
+      "outcomes": {
+        "yes": 0.34,
+        "no": 0.66
+      },
+      "volume": 31000,
+      "liquidity": 15000
+    },
+    {
+      "id": "pol-005",
+      "category": "politics",
+      "question": "威尔士辅助死亡法案能否在2026年3月前通过Senedd的最终读数投票？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Politics",
+        "url": "https://www.bbc.com/news/politics"
+      },
+      "outcomes": {
+        "yes": 0.41,
+        "no": 0.59
+      },
+      "volume": 36000,
+      "liquidity": 18000
+    },
+    {
+      "id": "pol-006",
+      "category": "politics",
+      "question": "曼德尔森案能否在2026年6月前促使英国修订飞行风险拘留相关法律条款？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Politics",
+        "url": "https://www.bbc.com/news/politics"
+      },
+      "outcomes": {
+        "yes": 0.22,
+        "no": 0.78
+      },
+      "volume": 28000,
+      "liquidity": 14000
+    },
+    {
+      "id": "ele-001",
+      "category": "elections",
+      "question": "英国工党能否在2026年5月地方选举中保住超过60%的现有议席？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Politics",
+        "url": "https://www.bbc.com/news/politics"
+      },
+      "outcomes": {
+        "yes": 0.43,
+        "no": 0.57
+      },
+      "volume": 55000,
+      "liquidity": 27000
+    },
+    {
+      "id": "ele-002",
+      "category": "elections",
+      "question": "美国民主党能否在2026年11月中期选举中夺回众议院多数席位？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "AP News",
+        "url": "https://apnews.com/politics"
+      },
+      "outcomes": {
+        "yes": 0.49,
+        "no": 0.51
+      },
+      "volume": 72000,
+      "liquidity": 36000
+    },
+    {
+      "id": "ele-003",
+      "category": "elections",
+      "question": "Reform UK能否在2026年5月英国地方选举中赢得超过200个地方议会席位？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Politics",
+        "url": "https://www.bbc.com/news/politics"
+      },
+      "outcomes": {
+        "yes": 0.51,
+        "no": 0.49
+      },
+      "volume": 48000,
+      "liquidity": 24000
+    },
+    {
+      "id": "wec-001",
+      "category": "world-economy",
+      "question": "英国家庭能源账单能否在2026年4月如期下调？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Business",
+        "url": "https://www.bbc.com/news/business"
+      },
+      "outcomes": {
+        "yes": 0.89,
+        "no": 0.11
+      },
+      "volume": 61000,
+      "liquidity": 30000
+    },
+    {
+      "id": "wec-002",
+      "category": "world-economy",
+      "question": "派拉蒙能否在2026年底前完成对华纳兄弟的收购并获监管批准？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Business",
+        "url": "https://www.bbc.com/news/business"
+      },
+      "outcomes": {
+        "yes": 0.4,
+        "no": 0.6
+      },
+      "volume": 58000,
+      "liquidity": 29000
+    },
+    {
+      "id": "wec-003",
+      "category": "world-economy",
+      "question": "Shein能否在2026年底前完成在伦敦证券交易所的IPO上市？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Business",
+        "url": "https://www.bbc.com/news/business"
+      },
+      "outcomes": {
+        "yes": 0.37,
+        "no": 0.63
+      },
+      "volume": 53000,
+      "liquidity": 26000
+    },
+    {
+      "id": "wec-004",
+      "category": "world-economy",
+      "question": "英国能否在2026年6月前与欧盟就双重国籍旅行新规达成豁免协议？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Business",
+        "url": "https://www.bbc.com/news/business"
+      },
+      "outcomes": {
+        "yes": 0.3,
+        "no": 0.7
+      },
+      "volume": 35000,
+      "liquidity": 17000
+    },
+    {
+      "id": "wec-005",
+      "category": "world-economy",
+      "question": "苏丹无人机袭击黄金石油产区能否在2026年Q2前推动全球原油价格上涨超过5%？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC News",
+        "url": "https://www.bbc.com/news/world"
+      },
+      "outcomes": {
+        "yes": 0.33,
+        "no": 0.67
+      },
+      "volume": 47000,
+      "liquidity": 23000
+    },
+    {
+      "id": "wec-006",
+      "category": "world-economy",
+      "question": "特朗普国情咨文后美国国会能否在2026年6月前通过至少一项重大贸易政策立法？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/"
+      },
+      "outcomes": {
+        "yes": 0.45,
+        "no": 0.55
+      },
+      "volume": 64000,
+      "liquidity": 32000
+    },
+    {
+      "id": "wec-007",
+      "category": "world-economy",
+      "question": "日本在台湾附近部署导弹的计划能否在2026年底前获得国会正式预算拨款？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/business/"
+      },
+      "outcomes": {
+        "yes": 0.58,
+        "no": 0.42
+      },
+      "volume": 43000,
+      "liquidity": 21000
+    },
+    {
+      "id": "wec-008",
+      "category": "world-economy",
+      "question": "派拉蒙与华纳兄弟合并后的实体能否在合并完成后6个月内市值超过Netflix？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Business",
+        "url": "https://www.bbc.com/news/business"
+      },
+      "outcomes": {
+        "yes": 0.21,
+        "no": 0.79
+      },
+      "volume": 39000,
+      "liquidity": 19000
+    },
+    {
+      "id": "cry-001",
+      "category": "crypto",
+      "question": "比特币能否在2026年3月底前从当前水平反弹超过20%？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/"
+      },
+      "outcomes": {
+        "yes": 0.43,
+        "no": 0.57
+      },
+      "volume": 85000,
+      "liquidity": 42000
+    },
+    {
+      "id": "cry-002",
+      "category": "crypto",
+      "question": "MicroStrategy能否在2026年Q2前摆脱美国做空比例最高股票的地位？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/"
+      },
+      "outcomes": {
+        "yes": 0.38,
+        "no": 0.62
+      },
+      "volume": 71000,
+      "liquidity": 35000
+    },
+    {
+      "id": "cry-003",
+      "category": "crypto",
+      "question": "Tether稳定币市值能否在2026年3月底前止跌回升并创历史新高？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/"
+      },
+      "outcomes": {
+        "yes": 0.35,
+        "no": 0.65
+      },
+      "volume": 62000,
+      "liquidity": 31000
+    },
+    {
+      "id": "cry-004",
+      "category": "crypto",
+      "question": "以太坊价格能否在Vitalik抛售17000枚ETH后的30天内回升至抛售前水平？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/"
+      },
+      "outcomes": {
+        "yes": 0.4,
+        "no": 0.6
+      },
+      "volume": 78000,
+      "liquidity": 39000
+    },
+    {
+      "id": "cry-005",
+      "category": "crypto",
+      "question": "持有Strategy优先股的美国持牌银行能否在2026年底前将其比特币相关资产规模扩大一倍？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/"
+      },
+      "outcomes": {
+        "yes": 0.32,
+        "no": 0.68
+      },
+      "volume": 44000,
+      "liquidity": 22000
+    },
+    {
+      "id": "tec-001",
+      "category": "tech",
+      "question": "印度AI初创公司能否在2026年底前整体转向盈利优先而非用户增长优先的商业模式？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/"
+      },
+      "outcomes": {
+        "yes": 0.27,
+        "no": 0.73
+      },
+      "volume": 37000,
+      "liquidity": 18000
+    },
+    {
+      "id": "tec-002",
+      "category": "tech",
+      "question": "AI芯片初创公司MatX能否在完成5亿美元融资后的12个月内推出量产芯片？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/"
+      },
+      "outcomes": {
+        "yes": 0.44,
+        "no": 0.56
+      },
+      "volume": 52000,
+      "liquidity": 26000
+    },
+    {
+      "id": "tec-003",
+      "category": "tech",
+      "question": "自动驾驶初创公司Wayve能否在2027年底前在英国以外市场实现商业化运营？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/"
+      },
+      "outcomes": {
+        "yes": 0.52,
+        "no": 0.48
+      },
+      "volume": 59000,
+      "liquidity": 29000
+    },
+    {
+      "id": "tec-004",
+      "category": "tech",
+      "question": "Multiverse Computing的压缩AI模型能否在2026年底前获得超过100万次下载？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com/"
+      },
+      "outcomes": {
+        "yes": 0.39,
+        "no": 0.61
+      },
+      "volume": 41000,
+      "liquidity": 20000
+    },
+    {
+      "id": "spo-001",
+      "category": "sports",
+      "question": "英国最年轻F1车手能否在2026赛季首场正式比赛中完赛并积分？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Sport",
+        "url": "https://www.bbc.com/sport"
+      },
+      "outcomes": {
+        "yes": 0.54,
+        "no": 0.46
+      },
+      "volume": 48000,
+      "liquidity": 24000
+    },
+    {
+      "id": "spo-002",
+      "category": "sports",
+      "question": "约书亚车祸司机案能否在2026年3月的庭审中作出最终判决？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Sport",
+        "url": "https://www.bbc.com/sport"
+      },
+      "outcomes": {
+        "yes": 0.45,
+        "no": 0.55
+      },
+      "volume": 31000,
+      "liquidity": 15000
+    },
+    {
+      "id": "spo-003",
+      "category": "sports",
+      "question": "因FIFA资金冻结引发的安全担忧能否导致2026年世界杯举办地在赛前发生变更？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Sport",
+        "url": "https://www.bbc.com/sport"
+      },
+      "outcomes": {
+        "yes": 0.08,
+        "no": 0.92
+      },
+      "volume": 55000,
+      "liquidity": 27000
+    },
+    {
+      "id": "cul-001",
+      "category": "culture",
+      "question": "Shein创始人许仰天能否在2026年底前再次公开亮相并接受主流媒体采访？",
+      "endDate": "2026-02-25-test3",
+      "source": {
+        "name": "BBC Business",
+        "url": "https://www.bbc.com/news/business"
+      },
+      "outcomes": {
+        "yes": 0.28,
+        "no": 0.72
+      },
+      "volume": 28000,
+      "liquidity": 14000
+    }
+  ]
+}
