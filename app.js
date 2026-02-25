@@ -2,7 +2,7 @@
 let allTopics = [];
 let currentCat = 'all';
 let currentDate = getTodayStr();
-let availableDates = [];
+let availableDates = []; // sorted ascending
 
 function getTodayStr() {
   return new Date().toISOString().slice(0, 10);
@@ -11,7 +11,7 @@ function getTodayStr() {
 function formatDate(str) {
   const d = new Date(str + 'T00:00:00');
   return d.toLocaleDateString(currentLang === 'zh' ? 'zh-CN' : 'en-US', {
-    year: 'numeric', month: 'short', day: 'numeric'
+    year: 'numeric', month: 'long', day: 'numeric'
   });
 }
 
@@ -22,10 +22,24 @@ function formatSettlement(isoStr) {
   });
 }
 
-// Load data — fallback up to 7 days back if today's file missing
-async function loadData(dateStr, fallbackDepth = 0) {
+// Load index.json to get all available dates
+async function loadIndex() {
+  try {
+    const res = await fetch(`data/index.json?v=${Date.now()}`);
+    if (!res.ok) throw new Error('no index');
+    const json = await res.json();
+    availableDates = (json.dates || []).sort();
+  } catch {
+    // fallback: try to detect from known files
+    availableDates = [];
+  }
+  renderNavState();
+}
+
+// Load data for a specific date (exact, no fallback — index tells us what's available)
+async function loadData(dateStr) {
   const grid = document.getElementById('cardsGrid');
-  if (fallbackDepth === 0) grid.innerHTML = `<div class="loading">${t('loading')}</div>`;
+  grid.innerHTML = `<div class="loading">${t('loading')}</div>`;
   try {
     const res = await fetch(`data/${dateStr}.json?v=${Date.now()}`);
     if (!res.ok) throw new Error('not found');
@@ -34,17 +48,35 @@ async function loadData(dateStr, fallbackDepth = 0) {
     allTopics = json.topics;
     currentDate = dateStr;
     document.getElementById('dateDisplay').textContent = formatDate(dateStr);
+    renderNavState();
     renderStats();
     renderCards();
   } catch {
-    if (fallbackDepth < 7) {
-      const d = new Date(dateStr + 'T00:00:00');
-      d.setDate(d.getDate() - 1);
-      loadData(d.toISOString().slice(0, 10), fallbackDepth + 1);
-    } else {
-      allTopics = [];
-      grid.innerHTML = `<div class="loading">${t('no_data')}</div>`;
-      renderStats();
+    allTopics = [];
+    grid.innerHTML = `<div class="loading">${t('no_data')}</div>`;
+    renderStats();
+  }
+}
+
+// Update prev/next button states and archive info
+function renderNavState() {
+  const prevBtn = document.getElementById('prevDate');
+  const nextBtn = document.getElementById('nextDate');
+  const archiveEl = document.getElementById('archiveInfo');
+
+  if (availableDates.length > 0) {
+    const idx = availableDates.indexOf(currentDate);
+    prevBtn.disabled = idx <= 0;
+    nextBtn.disabled = idx < 0 || idx >= availableDates.length - 1;
+    prevBtn.style.opacity = prevBtn.disabled ? '0.3' : '1';
+    nextBtn.style.opacity = nextBtn.disabled ? '0.3' : '1';
+
+    // Archive info
+    const totalTopics = availableDates.length * 30;
+    if (archiveEl) {
+      archiveEl.innerHTML = currentLang === 'zh'
+        ? `📚 已收录 <strong>${availableDates.length}</strong> 天 · <strong>${totalTopics}</strong> 条话题`
+        : `📚 <strong>${availableDates.length}</strong> days · <strong>${totalTopics}</strong> topics archived`;
     }
   }
 }
@@ -144,16 +176,21 @@ document.getElementById('tabs').addEventListener('click', e => {
   renderCards();
 });
 
-// Date nav
+// Date nav — jump to prev/next AVAILABLE date
 function shiftDate(delta) {
-  const d = new Date(currentDate + 'T00:00:00');
-  d.setDate(d.getDate() + delta);
-  const next = d.toISOString().slice(0, 10);
-  const today = getTodayStr();
-  if (next > today) return;
-  currentDate = next;
+  if (availableDates.length === 0) return;
+  const idx = availableDates.indexOf(currentDate);
+  let nextIdx;
+  if (idx < 0) {
+    nextIdx = delta < 0 ? availableDates.length - 1 : 0;
+  } else {
+    nextIdx = idx + delta;
+  }
+  if (nextIdx < 0 || nextIdx >= availableDates.length) return;
+  currentDate = availableDates[nextIdx];
   loadData(currentDate);
 }
+
 document.getElementById('prevDate').addEventListener('click', () => shiftDate(-1));
 document.getElementById('nextDate').addEventListener('click', () => shiftDate(1));
 
@@ -161,10 +198,23 @@ document.getElementById('nextDate').addEventListener('click', () => shiftDate(1)
 function renderAll() {
   applyI18n();
   document.getElementById('dateDisplay').textContent = formatDate(currentDate);
+  renderNavState();
   renderStats();
   renderCards();
 }
 
-// Init
-applyI18n();
-loadData(currentDate);
+// Init: load index first, then load the latest available date
+async function init() {
+  applyI18n();
+  await loadIndex();
+  // Start from latest available date (or today)
+  const today = getTodayStr();
+  if (availableDates.length > 0) {
+    // Pick latest date that is <= today
+    const valid = availableDates.filter(d => d <= today);
+    currentDate = valid.length > 0 ? valid[valid.length - 1] : availableDates[availableDates.length - 1];
+  }
+  loadData(currentDate);
+}
+
+init();
