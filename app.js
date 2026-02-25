@@ -5,7 +5,12 @@ let currentDate = getTodayStr();
 let availableDates = []; // sorted ascending
 
 function getTodayStr() {
-  return new Date().toISOString().slice(0, 10);
+  // 用本地时间，避免 UTC 偏差导致跨日显示错误
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
 }
 
 function formatDate(str) {
@@ -44,8 +49,10 @@ async function loadData(dateStr) {
     const res = await fetch(`data/${dateStr}.json?v=${Date.now()}`);
     if (!res.ok) throw new Error('not found');
     const json = await res.json();
-    if (!json.topics || json.topics.length === 0) throw new Error('empty');
-    allTopics = json.topics;
+    // 兼容数组格式和 {topics:[]} 格式
+    const topics = Array.isArray(json) ? json : (json.topics || []);
+    if (!topics.length) throw new Error('empty');
+    allTopics = topics;
     currentDate = dateStr;
     document.getElementById('dateDisplay').textContent = formatDate(dateStr);
     renderNavState();
@@ -159,32 +166,42 @@ function buildCard(topic) {
     ? (topic.title[lang] || topic.title.zh || topic.title.en || '')
     : (topic.question || '');
 
-  const yesRule = topic.rules
-    ? (topic.rules.yes[lang] || topic.rules.yes.zh || '')
-    : (lang === 'zh' ? '是' : 'Yes');
-  const noRule = topic.rules
-    ? (topic.rules.no[lang] || topic.rules.no.zh || '')
-    : (lang === 'zh' ? '否' : 'No');
-
   const settle = topic.settlement
     ? formatSettlement(topic.settlement)
     : formatSettlement(topic.endDate || new Date().toISOString());
 
-  let yes, no, yes_prob, no_prob;
+  // 赔率：旧格式 odds.yes/no + yes_prob/no_prob；新格式 outcomes.yes/no（概率0-1）
+  let yes_val, no_val, yes_prob, no_prob;
   if (topic.odds) {
-    ({ yes, no, yes_prob, no_prob } = topic.odds);
+    yes_val  = topic.odds.yes.toFixed(2);
+    no_val   = topic.odds.no.toFixed(2);
+    yes_prob = topic.odds.yes_prob;
+    no_prob  = topic.odds.no_prob;
   } else if (topic.outcomes) {
-    yes = topic.outcomes.yes || 0;
-    no  = topic.outcomes.no  || 0;
-    yes_prob = Math.round(yes * 100);
-    no_prob  = Math.round(no  * 100);
+    yes_prob = Math.round((topic.outcomes.yes || 0) * 100);
+    no_prob  = Math.round((topic.outcomes.no  || 0) * 100);
+    yes_val  = yes_prob + '%';
+    no_val   = no_prob  + '%';
   } else {
-    yes = no = 0.5; yes_prob = no_prob = 50;
+    yes_val = no_val = '50%'; yes_prob = no_prob = 50;
   }
 
   const catLabel = t('cat_' + topic.category) || topic.category;
   const source = topic.source || null;
   const isBreaking = topic.breaking || false;
+
+  // rules 区域：只在有真实规则数据时显示
+  const rulesHtml = topic.rules ? `
+      <div class="rules">
+        <div class="rule yes">
+          <span class="rule-icon">✅</span>
+          <span>${topic.rules.yes[lang] || topic.rules.yes.zh || ''}</span>
+        </div>
+        <div class="rule no">
+          <span class="rule-icon">❌</span>
+          <span>${topic.rules.no[lang] || topic.rules.no.zh || ''}</span>
+        </div>
+      </div>` : '';
 
   const sourceHtml = source ? `
     <a class="source-link" href="${source.url}" target="_blank" rel="noopener">
@@ -200,16 +217,7 @@ function buildCard(topic) {
         <div class="card-title">${breakingBadge}${title}</div>
         <span class="cat-badge ${topic.category}">${catLabel}</span>
       </div>
-      <div class="rules">
-        <div class="rule yes">
-          <span class="rule-icon">✅</span>
-          <span>${yesRule}</span>
-        </div>
-        <div class="rule no">
-          <span class="rule-icon">❌</span>
-          <span>${noRule}</span>
-        </div>
-      </div>
+      ${rulesHtml}
       <div class="card-footer">
         <div class="settlement">
           <span class="settlement-icon">🕐</span>
@@ -220,12 +228,12 @@ function buildCard(topic) {
       <div class="odds-row">
         <div class="odds-btn yes-btn">
           <span class="odds-label">${t('yes')}</span>
-          <span class="odds-value">${yes.toFixed(2)}</span>
+          <span class="odds-value">${yes_val}</span>
           <span class="odds-prob">${yes_prob}%</span>
         </div>
         <div class="odds-btn no-btn">
           <span class="odds-label">${t('no')}</span>
-          <span class="odds-value">${no.toFixed(2)}</span>
+          <span class="odds-value">${no_val}</span>
           <span class="odds-prob">${no_prob}%</span>
         </div>
       </div>
