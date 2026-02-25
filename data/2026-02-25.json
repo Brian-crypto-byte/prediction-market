@@ -5,361 +5,361 @@
       "id": "pol-001",
       "category": "politics",
       "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
-      "title": { "zh": "英国警方能否在2026年3月底前正式起诉曼德尔森勋爵？", "en": "Will UK police formally charge Lord Mandelson before the end of March 2026?" },
+      "title": { "zh": "英国驻美大使曼德尔森因'无端'理由被捕，律师能否为其成功洗脱拘留风险认定？", "en": "Will Mandelson's lawyers successfully clear the 'baseless' flight-risk claim that led to his arrest?" },
       "rules": {
-        "yes": { "zh": "英国警方在2026年3月31日前对曼德尔森勋爵提出正式刑事指控", "en": "UK police formally charge Lord Mandelson with a criminal offence before March 31, 2026" },
-        "no": { "zh": "截止日期前无正式起诉，调查仍在进行或被撤销", "en": "No formal charges filed before the deadline; investigation ongoing or dropped" }
+        "yes": { "zh": "法院正式撤销对曼德尔森的拘留令或裁定此前的飞行风险认定无依据，并无条件释放", "en": "A court formally quashes the detention order or rules the flight-risk designation baseless and releases him unconditionally" },
+        "no": { "zh": "法院维持对曼德尔森的拘留令或驳回律师申请", "en": "The court upholds the detention order or rejects lawyers' application" }
       },
-      "settlement": "2026-03-31T23:59:00Z",
-      "odds": { "yes": 2.80, "no": 1.45, "yes_prob": 36, "no_prob": 64 }
+      "settlement": "2026-03-15T23:59:00Z",
+      "odds": { "yes": 1.75, "no": 2.10, "yes_prob": 57, "no_prob": 43 }
     },
     {
       "id": "pol-002",
       "category": "politics",
       "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
-      "title": { "zh": "曼德尔森勋爵文件能否在2026年3月前全部公开？", "en": "Will the Mandelson files be fully released to the public before March 2026?" },
+      "title": { "zh": "英国议会能否投票通过公开安德鲁王子贸易职位相关档案？", "en": "Will UK Parliament vote to release the files related to Prince Andrew's trade role?" },
       "rules": {
-        "yes": { "zh": "议会委员会在2026年3月31日前决定并公开全部曼德尔森相关文件", "en": "Parliamentary committee decides and releases all Mandelson-related files before March 31, 2026" },
-        "no": { "zh": "文件部分或全部被封锁，在��止日期前未能全部公开", "en": "Files remain partially or fully blocked and are not fully released before the deadline" }
+        "yes": { "zh": "英国议会在2026年3月31日前通过决议，要求公开安德鲁王子贸易职位全部相关文件", "en": "UK Parliament passes a resolution requiring full release of Prince Andrew's trade role files before March 31, 2026" },
+        "no": { "zh": "议会未能通过相关决议，或文件公开被推迟至截止日期之后", "en": "Parliament fails to pass the resolution, or file release is delayed past the deadline" }
       },
       "settlement": "2026-03-31T23:59:00Z",
-      "odds": { "yes": 2.40, "no": 1.60, "yes_prob": 42, "no_prob": 58 }
+      "odds": { "yes": 1.65, "no": 2.30, "yes_prob": 61, "no_prob": 39 }
     },
     {
       "id": "pol-003",
       "category": "politics",
       "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
-      "title": { "zh": "Reform UK能否赢得Gorton and Denton补选？", "en": "Will Reform UK win the Gorton and Denton by-election?" },
+      "title": { "zh": "Reform UK被捕的地方选举活动人士能否在选举前���正式起诉？", "en": "Will the suspended Reform UK by-election activist face formal charges before the election?" },
       "rules": {
-        "yes": { "zh": "Reform UK候选人在Gorton and Denton补选中获得最多票数，当选议员", "en": "Reform UK candidate wins the most votes in the Gorton and Denton by-election and is elected MP" },
-        "no": { "zh": "其他政党候选人赢得该补选", "en": "A candidate from another party wins the by-election" }
+        "yes": { "zh": "该活动人士在相关选区补选投票日前被正式提起刑事指控", "en": "The activist faces formal criminal charges before polling day in the relevant by-election" },
+        "no": { "zh": "选举前未提起正式指控，或指控被撤销", "en": "No formal charges filed before the election, or charges are dropped" }
       },
-      "settlement": "2026-03-15T23:59:00Z",
-      "odds": { "yes": 3.00, "no": 1.40, "yes_prob": 33, "no_prob": 67 }
+      "settlement": "2026-05-07T23:59:00Z",
+      "odds": { "yes": 2.80, "no": 1.45, "yes_prob": 36, "no_prob": 64 }
     },
     {
       "id": "pol-004",
       "category": "politics",
       "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
-      "title": { "zh": "斯塔默政府能否在2026年5月地方选举中避免重大失败？", "en": "Will the Starmer government avoid a major defeat in the May 2026 local elections?" },
+      "title": { "zh": "斯特金与萨尔蒙德恩怨案：苏格兰检察机构能否在2026年内对此展开正式调查？", "en": "Will Scottish prosecutors launch a formal inquiry into Sturgeon's alleged 'revenge mission' against Salmond in 2026?" },
       "rules": {
-        "yes": { "zh": "工党在2026年5月英格兰地方选举中净失席位少于200席，视为"避免重大失败"", "en": "Labour loses fewer than 200 net council seats in the May 2026 English local elections, deemed 'avoiding a major defeat'" },
-        "no": { "zh": "工党净失席位超过200席，媒体普遍定性为重大失败", "en": "Labour loses 200 or more net council seats, widely characterised as a major defeat" }
+        "yes": { "zh": "苏格兰检察局在2026年12月31日前宣布对斯特金政府相关行为展开正式调查", "en": "The Crown Office in Scotland announces a formal investigation into Sturgeon's government's conduct before December 31, 2026" },
+        "no": { "zh": "年内未宣布正式调查", "en": "No formal investigation announced within the year" }
       },
-      "settlement": "2026-05-10T23:59:00Z",
-      "odds": { "yes": 2.20, "no": 1.70, "yes_prob": 45, "no_prob": 55 }
+      "settlement": "2026-12-31T23:59:00Z",
+      "odds": { "yes": 3.10, "no": 1.38, "yes_prob": 32, "no_prob": 68 }
     },
     {
       "id": "pol-005",
       "category": "politics",
       "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
-      "title": { "zh": "斯塔默总理能否在2026年5月前挺过工党内部"倒阁"压力？", "en": "Will Starmer survive a Labour leadership confidence challenge before May 2026?" },
+      "title": { "zh": "英国法院积压问题能否在拉米司法改革后6个月内出现实质改善？", "en": "Will the UK court backlog show measurable improvement within 6 months of Lammy's new justice reforms?" },
       "rules": {
-        "yes": { "zh": "工党未在2026年5月1日前发起正式领导层信任投票，或斯塔默在信任投票中胜出", "en": "No formal Labour leadership confidence vote is triggered before May 1, 2026, or Starmer wins any such vote" },
-        "no": { "zh": "工党在截止日期前触发领导层信任投票且斯塔默落败", "en": "A Labour leadership confidence vote is triggered and Starmer loses before the deadline" }
+        "yes": { "zh": "英国司法统计局在改革推出后6个月内公布数据显示未决案件数量减少至少5%", "en": "UK Ministry of Justice statistics show a reduction of at least 5% in outstanding cases within 6 months of reforms launching" },
+        "no": { "zh": "未决案件数量维持不变或继续上升", "en": "Outstanding cases remain flat or continue to rise" }
       },
-      "settlement": "2026-05-01T23:59:00Z",
-      "odds": { "yes": 1.40, "no": 3.00, "yes_prob": 71, "no_prob": 29 }
+      "settlement": "2026-09-30T23:59:00Z",
+      "odds": { "yes": 2.50, "no": 1.55, "yes_prob": 40, "no_prob": 60 }
     },
     {
       "id": "pol-006",
       "category": "politics",
       "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
-      "title": { "zh": "英国法院积压案件能否在2026年底前出现减少趋势？", "en": "Will UK court backlogs begin to decrease by end of 2026?" },
+      "title": { "zh": "英国议会能否在2026年5月前通过临时禁止加密货币政治献金的立法？", "en": "Will UK Parliament pass legislation for a temporary ban on crypto donations to political parties before May 2026?" },
       "rules": {
-        "yes": { "zh": "英国司法统计数据显示2026年Q4英格兰及威尔士皇家法院待审案件总数低于2026年Q1水平", "en": "UK justice statistics show total Crown Court backlog in Q4 2026 lower than Q1 2026 levels" },
-        "no": { "zh": "2026年Q4积压案件数量等于或高于Q1水平", "en": "Crown Court backlog in Q4 2026 equals or exceeds Q1 2026 levels" }
+        "yes": { "zh": "英国议会在2026年5月1日前通过相关法案，暂时禁止加密货币作为政治献金", "en": "UK Parliament passes legislation temporarily banning crypto political donations before May 1, 2026" },
+        "no": { "zh": "立法未能在截止日期前通过", "en": "Legislation fails to pass before the deadline" }
       },
-      "settlement": "2027-02-28T23:59:00Z",
-      "odds": { "yes": 2.50, "no": 1.55, "yes_prob": 40, "no_prob": 60 }
+      "settlement": "2026-05-01T23:59:00Z",
+      "odds": { "yes": 2.20, "no": 1.70, "yes_prob": 45, "no_prob": 55 }
     },
     {
       "id": "pol-007",
       "category": "politics",
       "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
-      "title": { "zh": "英国议会能否在2026年通过加密货币政治捐款临时禁令？", "en": "Will UK Parliament pass a temporary ban on crypto donations to political parties in 2026?" },
+      "title": { "zh": "英国2026年5月地方选举，Reform UK能否赢得超过200个地方议会席位？", "en": "Will Reform UK win more than 200 council seats in the May 2026 UK local elections?" },
       "rules": {
-        "yes": { "zh": "英国议会在2026年12月31日前通过立法，对加密货币政治捐款实施临时或永久禁令", "en": "UK Parliament passes legislation banning crypto donations to political parties (temporary or permanent) before December 31, 2026" },
-        "no": { "zh": "年内未通过相关立法", "en": "No such legislation passed within the year" }
+        "yes": { "zh": "Reform UK在2026年5月地方选举中赢得超过200个地方议会席位", "en": "Reform UK wins more than 200 local council seats in the May 2026 local elections" },
+        "no": { "zh": "Reform UK赢得200席或以下", "en": "Reform UK wins 200 seats or fewer" }
       },
-      "settlement": "2026-12-31T23:59:00Z",
-      "odds": { "yes": 2.90, "no": 1.42, "yes_prob": 34, "no_prob": 66 }
+      "settlement": "2026-05-10T23:59:00Z",
+      "odds": { "yes": 1.90, "no": 1.95, "yes_prob": 52, "no_prob": 48 }
     },
     {
       "id": "pol-008",
       "category": "politics",
       "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
-      "title": { "zh": "英国5月选举后，苏格兰国家党能否继续主导苏格兰议会？", "en": "Will the SNP retain control of the Scottish Parliament after the May 2026 elections?" },
+      "title": { "zh": "菲利普森能否守住学生贷款变化政策，2026年内不撤回？", "en": "Will Education Secretary Phillipson maintain the student loan changes without a U-turn in 2026?" },
       "rules": {
-        "yes": { "zh": "苏格兰国家党在2026年5月苏格兰议会选举后仍为议会最大党并继续执政", "en": "SNP remains the largest party in Holyrood and continues to govern after the May 2026 Scottish Parliament election" },
-        "no": { "zh": "其他政党或联盟在选举后获得执政权", "en": "Another party or coalition takes power after the election" }
+        "yes": { "zh": "菲利普森在2026年12月31日前未宣布撤回或实质性修改学生贷款偿还变化政策", "en": "Phillipson does not announce a reversal or substantial modification of the student loan repayment changes before December 31, 2026" },
+        "no": { "zh": "政府宣布撤回或大幅修改该政策", "en": "The government announces a reversal or major modification of the policy" }
       },
-      "settlement": "2026-05-25T23:59:00Z",
-      "odds": { "yes": 2.00, "no": 1.85, "yes_prob": 50, "no_prob": 50 }
+      "settlement": "2026-12-31T23:59:00Z",
+      "odds": { "yes": 1.55, "no": 2.55, "yes_prob": 65, "no_prob": 35 }
     },
     {
       "id": "pol-009",
       "category": "politics",
       "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
-      "title": { "zh": "斯塔默能否在2026年维持与特朗普的友好关系？", "en": "Will Starmer maintain a friendly relationship with Trump throughout 2026?" },
+      "title": { "zh": "英国全科医生强制提供当日急症预约政策能否在2026年底前全面落实？", "en": "Will the UK policy requiring GPs to guarantee same-day urgent appointments be fully implemented by end of 2026?" },
       "rules": {
-        "yes": { "zh": "2026年12月31日前，英美双边关系未因特朗普-斯塔默分歧而出现重大外交危机（制裁、大使召回等）", "en": "No major diplomatic crisis (sanctions, ambassador recall, etc.) between the US and UK attributable to Trump-Starmer tensions before December 31, 2026" },
-        "no": { "zh": "英美关系在2026年出现重大外交破裂，媒体普遍将其归因于两国领导层分歧", "en": "A major UK-US diplomatic rupture occurs in 2026, widely attributed to leadership tensions" }
+        "yes": { "zh": "英国卫生部确认该政策在2026年12月31日前在全国范围内全面生效", "en": "NHS England confirms the policy is fully operational nationwide before December 31, 2026" },
+        "no": { "zh": "政策推迟或仅部分实施", "en": "Policy is delayed or only partially implemented" }
       },
       "settlement": "2026-12-31T23:59:00Z",
-      "odds": { "yes": 1.65, "no": 2.30, "yes_prob": 61, "no_prob": 39 }
+      "odds": { "yes": 2.30, "no": 1.65, "yes_prob": 43, "no_prob": 57 }
     },
     {
       "id": "pol-010",
       "category": "politics",
       "source": { "name": "BBC Politics", "url": "https://www.bbc.com/news/politics" },
-      "title": { "zh": "英格兰NHS新合同能否确保全科医生当日预约正式落地？", "en": "Will the new NHS GP contract guaranteeing same-day urgent appointments be formally implemented in England?" },
+      "title": { "zh": "基尔·斯塔默能否在2026年5月地方选举后仍保住首相职位？", "en": "Will Keir Starmer remain Prime Minister after the May 2026 local elections?" },
       "rules": {
-        "yes": { "zh": "英国政府宣布新的全科医生合同正式生效，要求为紧急病例提供当日预约", "en": "The UK government officially implements the new GP contract requiring same-day urgent appointments in England" },
-        "no": { "zh": "新合同因谈判破裂或延迟，在2026年内未能正式落地", "en": "The new contract fails to be formally implemented in 2026 due to negotiations breakdown or delays" }
+        "yes": { "zh": "基尔·斯塔默在2026年5月地方选举后仍担任英国首相", "en": "Keir Starmer remains UK Prime Minister following the May 2026 local elections" },
+        "no": { "zh": "斯塔默在地方选举后辞职或被迫卸任", "en": "Starmer resigns or is forced from office following local election results" }
       },
-      "settlement": "2026-12-31T23:59:00Z",
-      "odds": { "yes": 1.75, "no": 2.10, "yes_prob": 57, "no_prob": 43 }
+      "settlement": "2026-06-01T23:59:00Z",
+      "odds": { "yes": 1.60, "no": 2.45, "yes_prob": 63, "no_prob": 37 }
     },
     {
       "id": "eco-001",
       "category": "economics",
-      "source": { "name": "BBC Business/Economy", "url": "https://www.bbc.com/news/business/economy" },
-      "title": { "zh": "瑞秋·里夫斯的春季声明能否宣布额外削减支出？", "en": "Will Rachel Reeves' Spring Statement announce additional spending cuts?" },
+      "source": { "name": "BBC Business", "url": "https://www.bbc.com/news/business/economy" },
+      "title": { "zh": "英格兰银行能否在2026年3月议息会议上降息25个基点？", "en": "Will the Bank of England cut rates by 25bps at its March 2026 meeting?" },
       "rules": {
-        "yes": { "zh": "财政大臣在2026年春季声明中宣布超过50亿英镑的新增支出削减", "en": "The Chancellor announces more than £5bn in additional spending cuts in the 2026 Spring Statement" },
-        "no": { "zh": "春季声明未宣布重大新增削减措施", "en": "No major new spending cuts announced in the Spring Statement" }
+        "yes": { "zh": "英格兰银行在2026年3月议息会议上宣布降息25个基点", "en": "Bank of England announces a 25bps rate cut at its March 2026 MPC meeting" },
+        "no": { "zh": "维持利率不变或加息", "en": "Rates held or raised" }
       },
-      "settlement": "2026-04-01T23:59:00Z",
-      "odds": { "yes": 2.00, "no": 1.85, "yes_prob": 50, "no_prob": 50 }
+      "settlement": "2026-03-20T23:59:00Z",
+      "odds": { "yes": 1.55, "no": 2.50, "yes_prob": 65, "no_prob": 35 }
     },
     {
       "id": "eco-002",
       "category": "economics",
-      "source": { "name": "BBC Business/Economy", "url": "https://www.bbc.com/news/business/economy" },
-      "title": { "zh": "英国CPI通胀率能否在2026年Q2降至2%目标以下？", "en": "Will UK CPI inflation fall below the 2% target in Q2 2026?" },
+      "source": { "name": "BBC Business", "url": "https://www.bbc.com/news/business/economy" },
+      "title": { "zh": "英国2026年2月CPI通胀率能否回落至2.5%以下？", "en": "Will UK CPI inflation fall below 2.5% in February 2026?" },
       "rules": {
-        "yes": { "zh": "英国国家统计局公布的2026年4月、5月或6月任一月份CPI年率低于2.0%", "en": "ONS reports UK CPI annual rate below 2.0% in any month of April, May, or June 2026" },
-        "no": { "zh": "2026年Q2全部三个月CPI均维持在2%或以上", "en": "UK CPI remains at or above 2.0% in all three months of Q2 2026" }
+        "yes": { "zh": "英国国家统计局公布的2026年2月CPI年率低于2.5%", "en": "ONS reports UK February 2026 CPI annual rate below 2.5%" },
+        "no": { "zh": "CPI维持在2.5%或以上", "en": "CPI remains at 2.5% or above" }
       },
-      "settlement": "2026-07-15T23:59:00Z",
-      "odds": { "yes": 2.60, "no": 1.52, "yes_prob": 38, "no_prob": 62 }
+      "settlement": "2026-03-25T23:59:00Z",
+      "odds": { "yes": 2.40, "no": 1.60, "yes_prob": 42, "no_prob": 58 }
     },
     {
       "id": "eco-003",
       "category": "economics",
-      "source": { "name": "BBC Business/Economy", "url": "https://www.bbc.com/news/business/economy" },
-      "title": { "zh": "英格兰银行能否在2026年内将利率降至3%以下？", "en": "Will the Bank of England cut interest rates below 3% in 2026?" },
+      "source": { "name": "BBC Business", "url": "https://www.bbc.com/news/business/economy" },
+      "title": { "zh": "美联储2026年上半年能否累计降息50个基点？", "en": "Will the US Federal Reserve cut rates by a cumulative 50bps in H1 2026?" },
       "rules": {
-        "yes": { "zh": "英格兰银行在2026年12月31日前将基准利率降至3.0%以下", "en": "Bank of England cuts its base rate below 3.0% before December 31, 2026" },
-        "no": { "zh": "2026年内基准利率维持在3.0%或以上", "en": "Base rate remains at 3.0% or above throughout 2026" }
+        "yes": { "zh": "美联储在2026年6月30日前的议息会议上累计降息达到或超过50个基点", "en": "The Fed cuts rates by a cumulative 50bps or more across H1 2026 FOMC meetings" },
+        "no": { "zh": "美联储累计降息低于50个基点，或不降息", "en": "Fed cuts less than 50bps cumulative, or doesn't cut at all" }
       },
-      "settlement": "2026-12-31T23:59:00Z",
+      "settlement": "2026-06-30T23:59:00Z",
       "odds": { "yes": 2.20, "no": 1.70, "yes_prob": 45, "no_prob": 55 }
     },
     {
       "id": "eco-004",
       "category": "economics",
-      "source": { "name": "BBC Business/Economy", "url": "https://www.bbc.com/news/business/economy" },
-      "title": { "zh": "美国贸易逆差能否在特朗普关税政策下于2026年内收窄？", "en": "Will the US trade deficit narrow under Trump's tariffs in 2026?" },
+      "source": { "name": "BBC Business", "url": "https://www.bbc.com/news/business/economy" },
+      "title": { "zh": "特朗普关税政策能否导致美国2026年Q1 GDP增速跌破1%？", "en": "Will Trump tariff policies drag US Q1 2026 GDP growth below 1%?" },
       "rules": {
-        "yes": { "zh": "美国商务部公布的2026年全年货物贸易逆差低于2025年全年逆差（以美元计）", "en": "US Commerce Department reports full-year 2026 goods trade deficit lower than full-year 2025 deficit in dollar terms" },
-        "no": { "zh": "2026年全年逆差等于或高于2025年", "en": "The 2026 full-year deficit equals or exceeds the 2025 level" }
+        "yes": { "zh": "美国商务部公布的2026年Q1 GDP年化增长率低于1%", "en": "US Bureau of Economic Analysis reports Q1 2026 annualized GDP growth below 1%" },
+        "no": { "zh": "GDP增速维持在1%或以上", "en": "GDP growth remains at 1% or above" }
       },
-      "settlement": "2027-02-28T23:59:00Z",
-      "odds": { "yes": 2.40, "no": 1.60, "yes_prob": 42, "no_prob": 58 }
+      "settlement": "2026-06-30T23:59:00Z",
+      "odds": { "yes": 2.80, "no": 1.45, "yes_prob": 36, "no_prob": 64 }
     },
     {
       "id": "eco-005",
       "category": "economics",
-      "source": { "name": "BBC Business/Economy", "url": "https://www.bbc.com/news/business/economy" },
-      "title": { "zh": "英国2026年1月录得历史最高政府财政盈余，能否连续两年实现1月盈余？", "en": "Will the UK government record a January surplus for two consecutive years in 2027?" },
+      "source": { "name": "BBC Business", "url": "https://www.bbc.com/news/business/economy" },
+      "title": { "zh": "英镑兑美元汇率能否在2026年Q2突破1.35？", "en": "Will GBP/USD break above 1.35 in Q2 2026?" },
       "rules": {
-        "yes": { "zh": "英国国家统计局公布2027年1月公共财政数据显示盈余（即政府税收超过支出）", "en": "ONS reports a UK public sector surplus in January 2027 (tax receipts exceeding spending)" },
-        "no": { "zh": "2027年1月公共财政出现赤字或持平", "en": "UK public finances show a deficit or break-even in January 2027" }
+        "yes": { "zh": "英镑兑美元汇率在2026年6���30日前任意交易日收盘价达到或超过1.35", "en": "GBP/USD closes at or above 1.35 on any trading day before June 30, 2026" },
+        "no": { "zh": "Q2结束前未能突破1.35", "en": "Fails to reach 1.35 before end of Q2" }
       },
-      "settlement": "2027-02-25T23:59:00Z",
-      "odds": { "yes": 1.80, "no": 2.05, "yes_prob": 56, "no_prob": 44 }
+      "settlement": "2026-06-30T23:59:00Z",
+      "odds": { "yes": 2.10, "no": 1.75, "yes_prob": 48, "no_prob": 52 }
     },
     {
       "id": "eco-006",
       "category": "economics",
-      "source": { "name": "BBC Business/Economy", "url": "https://www.bbc.com/news/business/economy" },
-      "title": { "zh": "里夫斯能否在2026年IFS评估中获得"财政规则合规"认定？", "en": "Will Reeves receive an IFS assessment of compliance with fiscal rules in 2026?" },
+      "source": { "name": "BBC Business", "url": "https://www.bbc.com/news/business/economy" },
+      "title": { "zh": "比特币能否在2026年3月底前重新突破10万美元？", "en": "Will Bitcoin reclaim $100,000 before end of March 2026?" },
       "rules": {
-        "yes": { "zh": "IFS在2026年对春季声明或秋季预算的评估中认定政府当前处于财政规则合规轨道", "en": "IFS assesses that the government is on track to comply with fiscal rules in its 2026 analysis of the Spring Statement or Autumn Budget" },
-        "no": { "zh": "IFS认定政府偏离财政规则轨道，或需进一步削减/加税", "en": "IFS determines the government is off-track on fiscal rules, requiring further cuts or tax rises" }
+        "yes": { "zh": "比特币现货价格在2026年3月31日前任意时刻达到或超过$100,000", "en": "Bitcoin spot price reaches or exceeds $100,000 at any point before March 31, 2026" },
+        "no": { "zh": "3月底前未能重返10万美元", "en": "Bitcoin fails to reach $100,000 before end of March" }
       },
-      "settlement": "2026-11-30T23:59:00Z",
-      "odds": { "yes": 2.30, "no": 1.65, "yes_prob": 43, "no_prob": 57 }
+      "settlement": "2026-03-31T23:59:00Z",
+      "odds": { "yes": 1.95, "no": 1.90, "yes_prob": 51, "no_prob": 49 }
     },
     {
       "id": "eco-007",
       "category": "economics",
-      "source": { "name": "BBC Business/Economy", "url": "https://www.bbc.com/news/business/economy" },
-      "title": { "zh": "黄金价格能否在2026年Q1突破3200美元/盎司？", "en": "Will gold price break $3,200/oz in Q1 2026?" },
+      "source": { "name": "BBC Business", "url": "https://www.bbc.com/news/business/economy" },
+      "title": { "zh": "英国财相里夫斯能否在2026年春季财政声明中维持财政纪律不追加借款？", "en": "Will Chancellor Reeves maintain fiscal discipline without additional borrowing in the Spring 2026 Statement?" },
       "rules": {
-        "yes": { "zh": "伦敦金现货价在2026年3月31日前任意时刻达到或超过$3,200/盎司", "en": "London spot gold reaches or exceeds $3,200/oz at any point before March 31, 2026" },
-        "no": { "zh": "Q1结束前未能突破$3,200/盎司", "en": "Gold fails to reach $3,200/oz before end of Q1 2026" }
+        "yes": { "zh": "里夫斯在2026年春季财政声明中宣布借款目标不超过此前既定水平", "en": "Reeves announces borrowing within or below previously stated targets in the Spring 2026 Statement" },
+        "no": { "zh": "宣布超出既定目标的额外借款", "en": "Additional borrowing beyond existing targets announced" }
       },
-      "settlement": "2026-03-31T23:59:00Z",
-      "odds": { "yes": 1.90, "no": 1.95, "yes_prob": 53, "no_prob": 47 }
+      "settlement": "2026-04-30T23:59:00Z",
+      "odds": { "yes": 1.70, "no": 2.20, "yes_prob": 59, "no_prob": 41 }
     },
     {
       "id": "eco-008",
       "category": "economics",
-      "source": { "name": "BBC Business/Economy", "url": "https://www.bbc.com/news/business/economy" },
-      "title": { "zh": "特朗普任命的美联储主席凯文·沃什能否在2026年获得参议院确认？", "en": "Will Trump's Fed pick Kevin Warsh be confirmed by the Senate in 2026?" },
+      "source": { "name": "BBC Business", "url": "https://www.bbc.com/news/business/economy" },
+      "title": { "zh": "黄金价格能否在2026年Q1突破3000美元/盎司？", "en": "Will gold break $3,000/oz in Q1 2026?" },
       "rules": {
-        "yes": { "zh": "美国参议院在2026年12月31日前投票确认凯文·沃什担任美联储主席", "en": "US Senate confirms Kevin Warsh as Federal Reserve Chair before December 31, 2026" },
-        "no": { "zh": "沃什提名在年内被否决、撤回或未获投票", "en": "Warsh nomination is rejected, withdrawn, or not voted on within the year" }
+        "yes": { "zh": "伦敦金现货价在2026年3月31日前任意时刻达到或超过$3,000/盎司", "en": "London spot gold reaches or exceeds $3,000/oz at any point before March 31, 2026" },
+        "no": { "zh": "Q1结束前未能突破$3,000", "en": "Fails to reach $3,000/oz before end of Q1" }
       },
-      "settlement": "2026-12-31T23:59:00Z",
-      "odds": { "yes": 1.70, "no": 2.20, "yes_prob": 59, "no_prob": 41 }
+      "settlement": "2026-03-31T23:59:00Z",
+      "odds": { "yes": 1.80, "no": 2.05, "yes_prob": 56, "no_prob": 44 }
     },
     {
       "id": "eco-009",
       "category": "economics",
-      "source": { "name": "BBC Business/Economy", "url": "https://www.bbc.com/news/business/economy" },
-      "title": { "zh": "英国青年失业率能否在2026年底前降至13%以下？", "en": "Will UK youth unemployment fall below 13% by end of 2026?" },
+      "source": { "name": "BBC Business", "url": "https://www.bbc.com/news/business/economy" },
+      "title": { "zh": "欧洲央行2026年3月议息会议能否再度降息25个基点？", "en": "Will the ECB cut rates by another 25bps at its March 2026 meeting?" },
       "rules": {
-        "yes": { "zh": "英国国家统计局公布的16-24岁青年失业率在2026年第三或第四季度降至13%以下", "en": "ONS reports UK youth (16-24) unemployment below 13% in Q3 or Q4 2026" },
-        "no": { "zh": "2026年内青年失业率维持在13%或以上", "en": "UK youth unemployment remains at 13% or above throughout 2026" }
+        "yes": { "zh": "欧洲央行在2026年3月议息会议上宣布降息25个基点", "en": "ECB announces a 25bps rate cut at its March 2026 Governing Council meeting" },
+        "no": { "zh": "欧洲央行维持利率不变或采取其他行动", "en": "ECB holds rates or takes other action" }
       },
-      "settlement": "2027-01-31T23:59:00Z",
-      "odds": { "yes": 2.80, "no": 1.45, "yes_prob": 36, "no_prob": 64 }
+      "settlement": "2026-03-15T23:59:00Z",
+      "odds": { "yes": 1.65, "no": 2.30, "yes_prob": 61, "no_prob": 39 }
     },
     {
       "id": "eco-010",
       "category": "economics",
-      "source": { "name": "BBC Business/Economy", "url": "https://www.bbc.com/news/business/economy" },
-      "title": { "zh": "美国经济能否在2026年上半年避免衰退（连续两季度负增长）？", "en": "Will the US economy avoid a recession (two consecutive quarters of negative growth) in H1 2026?" },
+      "source": { "name": "BBC Business", "url": "https://www.bbc.com/news/business/economy" },
+      "title": { "zh": "英国2026年3月失业率公布数据能否低于4.5%？", "en": "Will UK unemployment data released in March 2026 show a rate below 4.5%?" },
       "rules": {
-        "yes": { "zh": "美国商务部公布的2026年Q1和Q2 GDP数据显示至少一个季度为正增长", "en": "US Commerce Department reports positive GDP growth in at least one of Q1 or Q2 2026" },
-        "no": { "zh": "2026年Q1和Q2 GDP均为负增长，满足技术性衰退定义", "en": "Both Q1 and Q2 2026 US GDP are negative, meeting the technical recession definition" }
+        "yes": { "zh": "英国国家统计局3月发布的最新失业率数据显示失业率低于4.5%", "en": "ONS March 2026 unemployment release shows rate below 4.5%" },
+        "no": { "zh": "失业率维持在4.5%或以上", "en": "Unemployment rate at 4.5% or above" }
       },
-      "settlement": "2026-08-31T23:59:00Z",
-      "odds": { "yes": 1.55, "no": 2.55, "yes_prob": 65, "no_prob": 35 }
+      "settlement": "2026-03-25T23:59:00Z",
+      "odds": { "yes": 2.00, "no": 1.85, "yes_prob": 50, "no_prob": 50 }
     },
     {
       "id": "spo-001",
       "category": "sports",
       "source": { "name": "BBC Sport", "url": "https://www.bbc.com/sport" },
-      "title": { "zh": "哈利·布鲁克能否带领英格兰在ICC冠军赛（T20世界杯赛季）中夺冠？", "en": "Will Harry Brook lead England to win the ICC Champions Trophy / T20 World Cup tournament in 2026?" },
+      "title": { "zh": "利物浦能否在2025-26赛季英超最终夺冠？", "en": "Will Liverpool win the 2025-26 Premier League title?" },
       "rules": {
-        "yes": { "zh": "哈利·布鲁克作为英格兰队长，带领英格兰赢得2026年ICC冠军赛或相关主要板球锦标赛冠军", "en": "Harry Brook captains England to win the 2026 ICC Champions Trophy or the main ICC cricket tournament of 2026" },
-        "no": { "zh": "英格兰在该赛事中未能夺冠", "en": "England fail to win the tournament" }
+        "yes": { "zh": "利物浦赢得2025-26赛季英格兰超级联赛冠军", "en": "Liverpool win the 2025-26 English Premier League title" },
+        "no": { "zh": "其他俱乐部赢得本赛季英超冠军", "en": "Another club wins the Premier League this season" }
       },
-      "settlement": "2026-04-30T23:59:00Z",
-      "odds": { "yes": 3.20, "no": 1.35, "yes_prob": 31, "no_prob": 69 }
+      "settlement": "2026-05-25T23:59:00Z",
+      "odds": { "yes": 1.40, "no": 2.90, "yes_prob": 71, "no_prob": 29 }
     },
     {
       "id": "spo-002",
       "category": "sports",
       "source": { "name": "BBC Sport", "url": "https://www.bbc.com/sport" },
-      "title": { "zh": "博多/格利姆特能否在欧冠淘汰赛阶段再创奇迹晋级？", "en": "Will Bodo/Glimt advance past the Champions League round of 16?" },
+      "title": { "zh": "2025-26欧冠淘汰赛，利物浦能否打进四强？", "en": "Will Liverpool reach the Champions League semi-finals in 2025-26?" },
       "rules": {
-        "yes": { "zh": "博多/格利姆特在2025-26赛季欧冠淘汰赛阶段赢得1/8决赛两回合，晋级8强", "en": "Bodo/Glimt win their Champions League round of 16 tie over two legs and advance to the quarter-finals" },
-        "no": { "zh": "博多/格利姆特在1/8决赛中被淘汰", "en": "Bodo/Glimt are eliminated in the round of 16" }
+        "yes": { "zh": "利物浦在2025-26赛季UEFA欧冠淘汰赛中晋级四强（半决赛）", "en": "Liverpool advance to the UEFA Champions League semi-finals in the 2025-26 season" },
+        "no": { "zh": "利物浦在四强之前被淘汰", "en": "Liverpool are eliminated before the semi-finals" }
       },
-      "settlement": "2026-03-20T23:59:00Z",
-      "odds": { "yes": 3.50, "no": 1.29, "yes_prob": 29, "no_prob": 71 }
+      "settlement": "2026-04-30T23:59:00Z",
+      "odds": { "yes": 1.85, "no": 2.00, "yes_prob": 54, "no_prob": 46 }
     },
     {
       "id": "spo-003",
       "category": "sports",
       "source": { "name": "BBC Sport", "url": "https://www.bbc.com/sport" },
-      "title": { "zh": "纽卡斯尔联能否从欧冠淘汰赛晋级至8强？", "en": "Will Newcastle United advance to the Champions League quarter-finals?" },
+      "title": { "zh": "2026年六国赛，英格兰能否赢得大满贯（全胜）？", "en": "Will England win the Six Nations Grand Slam in 2026?" },
       "rules": {
-        "yes": { "zh": "纽卡斯尔联在2025-26赛季欧冠1/8决赛两回合中胜出，晋级8强", "en": "Newcastle United win their Champions League round of 16 tie over two legs and reach the quarter-finals" },
-        "no": { "zh": "纽卡斯尔在1/8决赛中被淘汰出局", "en": "Newcastle United are eliminated in the round of 16" }
+        "yes": { "zh": "英格兰在2026年六国橄榄球锦标赛中全胜赢得大满贯", "en": "England win all five matches to claim the 2026 Six Nations Grand Slam" },
+        "no": { "zh": "英格兰未能全胜夺得大满贯", "en": "England fail to win the Grand Slam" }
       },
-      "settlement": "2026-03-20T23:59:00Z",
-      "odds": { "yes": 1.85, "no": 2.00, "yes_prob": 54, "no_prob": 46 }
+      "settlement": "2026-03-21T23:59:00Z",
+      "odds": { "yes": 3.20, "no": 1.35, "yes_prob": 31, "no_prob": 69 }
     },
     {
       "id": "spo-004",
       "category": "sports",
       "source": { "name": "BBC Sport", "url": "https://www.bbc.com/sport" },
-      "title": { "zh": "热刺能否在2025-26赛季英超成功保级？", "en": "Will Tottenham Hotspur avoid relegation in the 2025-26 Premier League season?" },
+      "title": { "zh": "2026年FIFA世界杯，英格兰能否首次夺冠？", "en": "Will England win their first-ever FIFA World Cup title in 2026?" },
       "rules": {
-        "yes": { "zh": "热刺在2025-26赛季英超赛季结束时排名第17位或以上，保级成功", "en": "Tottenham Hotspur finish 17th or above in the 2025-26 Premier League and avoid relegation" },
-        "no": { "zh": "热刺排名第18位或以下，降级至英冠", "en": "Tottenham finish 18th or below and are relegated to the Championship" }
+        "yes": { "zh": "英格兰国家队赢得2026年FIFA世界杯冠军", "en": "England win the 2026 FIFA World Cup" },
+        "no": { "zh": "其他国家队赢得世界杯冠军", "en": "Another team wins the 2026 World Cup" }
       },
-      "settlement": "2026-05-25T23:59:00Z",
-      "odds": { "yes": 1.65, "no": 2.30, "yes_prob": 61, "no_prob": 39 }
+      "settlement": "2026-07-20T23:59:00Z",
+      "odds": { "yes": 5.50, "no": 1.18, "yes_prob": 18, "no_prob": 82 }
     },
     {
       "id": "spo-005",
       "category": "sports",
       "source": { "name": "BBC Sport", "url": "https://www.bbc.com/sport" },
-      "title": { "zh": "维斯塔潘离开红牛的传言——霍纳是否在2026赛季前离开红牛车队？", "en": "Will Christian Horner leave Red Bull Racing before the start of the 2026 F1 season?" },
+      "title": { "zh": "2026年澳网冠军诺瓦克·德约科维奇能否在法网再度夺冠？", "en": "Will Novak Djokovic win the 2026 French Open?" },
       "rules": {
-        "yes": { "zh": "克里斯蒂安·霍纳在2026年F1新赛季开始前正式离开红牛车队管理职位", "en": "Christian Horner officially departs his management role at Red Bull Racing before the 2026 F1 season opener" },
-        "no": { "zh": "霍纳在2026赛季开始时仍担任红牛车队管理职位", "en": "Horner remains in his management role at Red Bull when the 2026 F1 season begins" }
+        "yes": { "zh": "诺瓦克·德约科维奇赢得2026年法国网球公开赛男单冠军", "en": "Novak Djokovic wins the 2026 French Open men's singles title" },
+        "no": { "zh": "其他球员赢得2026年法网男单冠军", "en": "Another player wins the 2026 French Open" }
       },
-      "settlement": "2026-03-15T23:59:00Z",
-      "odds": { "yes": 2.10, "no": 1.75, "yes_prob": 48, "no_prob": 52 }
+      "settlement": "2026-06-08T23:59:00Z",
+      "odds": { "yes": 3.80, "no": 1.26, "yes_prob": 26, "no_prob": 74 }
     },
     {
       "id": "spo-006",
       "category": "sports",
       "source": { "name": "BBC Sport", "url": "https://www.bbc.com/sport" },
-      "title": { "zh": "梅威瑟对帕奎奥复赛能否超过100万付费观众？", "en": "Will the Mayweather vs Pacquiao rematch attract over 1 million pay-per-view buys?" },
+      "title": { "zh": "2026年F1赛季，麦克拉伦车队能否再度赢得车队总冠军？", "en": "Will McLaren win the 2026 F1 Constructors' Championship?" },
       "rules": {
-        "yes": { "zh": "梅威瑟与帕奎奥复赛的全球付费点播观众总数超过100万人次", "en": "The Mayweather vs Pacquiao rematch records more than 1 million global pay-per-view buys" },
-        "no": { "zh": "付费点播观众总数为100万或以下", "en": "Global pay-per-view buys total 1 million or fewer" }
+        "yes": { "zh": "迈凯轮车队赢得2026年F1车队总冠军", "en": "McLaren win the 2026 F1 Constructors' Championship" },
+        "no": { "zh": "其他车队赢得2026年F1车队冠军", "en": "Another team wins the 2026 F1 Constructors' title" }
       },
-      "settlement": "2026-04-30T23:59:00Z",
-      "odds": { "yes": 2.50, "no": 1.55, "yes_prob": 40, "no_prob": 60 }
+      "settlement": "2026-12-01T23:59:00Z",
+      "odds": { "yes": 2.60, "no": 1.52, "yes_prob": 38, "no_prob": 62 }
     },
     {
       "id": "spo-007",
       "category": "sports",
       "source": { "name": "BBC Sport", "url": "https://www.bbc.com/sport" },
-      "title": { "zh": "特拉维斯·凯尔西能否宣布正式退役？", "en": "Will Travis Kelce officially announce his retirement from the NFL?" },
+      "title": { "zh": "2025-26赛季英冠，谢菲尔德联能否升入英超？", "en": "Will Sheffield United win promotion to the Premier League in 2025-26?" },
       "rules": {
-        "yes": { "zh": "特拉维斯·凯尔西在2026年6月30日前正式宣布从NFL退役", "en": "Travis Kelce officially announces his retirement from the NFL before June 30, 2026" },
-        "no": { "zh": "凯尔西未在截止日期前宣布退役，或续约参加下赛季", "en": "Kelce does not announce retirement before the deadline or signs for another season" }
+        "yes": { "zh": "谢菲尔德联在2025-26赛季英冠结束时跻身前二或在附加赛中晋升英超", "en": "Sheffield United finish in the top two or win the Championship play-offs to earn Premier League promotion in 2025-26" },
+        "no": { "zh": "谢菲尔德联未能在本赛季升入英超", "en": "Sheffield United fail to earn Premier League promotion this season" }
       },
-      "settlement": "2026-06-30T23:59:00Z",
-      "odds": { "yes": 2.20, "no": 1.70, "yes_prob": 45, "no_prob": 55 }
+      "settlement": "2026-05-31T23:59:00Z",
+      "odds": { "yes": 2.90, "no": 1.42, "yes_prob": 34, "no_prob": 66 }
     },
     {
       "id": "spo-008",
       "category": "sports",
       "source": { "name": "BBC Sport", "url": "https://www.bbc.com/sport" },
-      "title": { "zh": "英格兰女足球员威廉姆森能否就赛程问题与英足总达成协议，避免罢赛？", "en": "Will England Women's captain Leah Williamson and players reach an agreement with the FA over scheduling, avoiding a strike?" },
+      "title": { "zh": "2026年温布尔登，卡洛斯·阿尔卡拉斯能否三连冠？", "en": "Will Carlos Alcaraz win Wimbledon for the third consecutive year in 2026?" },
       "rules": {
-        "yes": { "zh": "英格兰女足球员与英足总在2026年6月30日前就赛程安排达成协议，未发生罢赛行动", "en": "England Women players and the FA reach a scheduling agreement before June 30, 2026, with no strike action taken" },
-        "no": { "zh": "谈判破裂，英格兰女足球员实施罢赛或拒绝征召", "en": "Negotiations break down and England Women players carry out strike action or refuse call-ups" }
+        "yes": { "zh": "卡洛斯·阿尔卡拉斯赢得2026年温布尔登网球赛男单冠军", "en": "Carlos Alcaraz wins the 2026 Wimbledon men's singles title" },
+        "no": { "zh": "其他球员赢得2026年温布尔登男单冠军", "en": "Another player wins 2026 Wimbledon" }
       },
-      "settlement": "2026-06-30T23:59:00Z",
-      "odds": { "yes": 1.75, "no": 2.10, "yes_prob": 57, "no_prob": 43 }
+      "settlement": "2026-07-13T23:59:00Z",
+      "odds": { "yes": 2.50, "no": 1.55, "yes_prob": 40, "no_prob": 60 }
     },
     {
       "id": "spo-009",
       "category": "sports",
       "source": { "name": "BBC Sport", "url": "https://www.bbc.com/sport" },
-      "title": { "zh": "2026年六国赛，英格兰能否在六国赛剩余轮次中赢得超过一场胜利？", "en": "Will England win more than one remaining game in the 2026 Six Nations?" },
+      "title": { "zh": "曼城能否在2025-26赛季英超保级成功，不跌入前10名以外？", "en": "Will Manchester City finish in the top 10 in the 2025-26 Premier League season?" },
       "rules": {
-        "yes": { "zh": "英格兰在2026年六国橄榄球锦标赛余下的比赛中赢得至少两场", "en": "England win at least two of their remaining 2026 Six Nations matches" },
-        "no": { "zh": "英格兰在剩余比赛中赢得一场或零场", "en": "England win one or zero of their remaining 2026 Six Nations matches" }
+        "yes": { "zh": "曼彻斯特城在2025-26赛季英超最终积分榜中排名前10", "en": "Manchester City finish in the top 10 of the 2025-26 Premier League final standings" },
+        "no": { "zh": "曼城最终积分榜排名第11位或以下", "en": "Manchester City finish 11th or below" }
       },
-      "settlement": "2026-03-21T23:59:00Z",
-      "odds": { "yes": 2.00, "no": 1.85, "yes_prob": 50, "no_prob": 50 }
+      "settlement": "2026-05-25T23:59:00Z",
+      "odds": { "yes": 1.30, "no": 3.75, "yes_prob": 77, "no_prob": 23 }
     },
     {
       "id": "spo-010",
       "category": "sports",
       "source": { "name": "BBC Sport", "url": "https://www.bbc.com/sport" },
-      "title": { "zh": "FIFA世界杯能否顺利在墨西哥城举办而不受安全事件重大影响？", "en": "Will the 2026 FIFA World Cup in Mexico proceed without major security incidents affecting matches?" },
+      "title": { "zh": "2026年板球T20世界杯，澳大利亚能否夺冠？", "en": "Will Australia win the 2026 ICC Men's T20 World Cup?" },
       "rules": {
-        "yes": { "zh": "2026年FIFA世界杯在墨西哥境内举行的全部赛事顺利完成，无因安全事件导致比赛取消或重大中断", "en": "All 2026 FIFA World Cup matches played in Mexico are completed without cancellations or major disruptions due to security incidents" },
-        "no": { "zh": "因安全事件，至少一场世界杯比赛被取消、迁移或出现重大安全中断", "en": "At least one World Cup match in Mexico is cancelled, relocated, or majorly disrupted due to security concerns" }
+        "yes": { "zh": "澳大利亚国家队赢得2026年ICC男子T20世界杯冠军", "en": "Australia win the 2026 ICC Men's T20 World Cup" },
+        "no": { "zh": "其他国家队赢得2026年T20世界杯", "en": "Another team wins the 2026 T20 World Cup" }
       },
-      "settlement": "2026-07-20T23:59:00Z",
-      "odds": { "yes": 1.80, "no": 2.05, "yes_prob": 56, "no_prob": 44 }
+      "settlement": "2026-04-30T23:59:00Z",
+      "odds": { "yes": 3.50, "no": 1.29, "yes_prob": 29, "no_prob": 71 }
     }
   ]
 }
