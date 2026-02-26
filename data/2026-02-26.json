@@ -1,0 +1,485 @@
+{
+  "date": "2026-02-26",
+  "topics": [
+    {
+      "id": "pol-001",
+      "category": "politics",
+      "question": "美国国会将在2026年3月31日之前通过新一轮对华制裁法案吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.35,
+        "no": 0.65
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "pol-002",
+      "category": "politics",
+      "question": "俄乌停火谈判将在2026年3月31日之前取得实质性进展吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.42,
+        "no": 0.58
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "pol-003",
+      "category": "politics",
+      "question": "英国首相苏纳克将在2026年3月31日之前宣布辞职吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.18,
+        "no": 0.82
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "pol-004",
+      "category": "politics",
+      "question": "联合国安理会将在2026年3月31日之前就中东局势通过新决议吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Reuters",
+        "url": "https://reuters.com"
+      },
+      "outcomes": {
+        "yes": 0.3,
+        "no": 0.7
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "pol-005",
+      "category": "politics",
+      "question": "特朗普政府将在2026年3月31日之前对欧盟加征新关税吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.55,
+        "no": 0.45
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "pol-006",
+      "category": "politics",
+      "question": "以色列与哈马斯将在2026年3月31日之前签署永久停火协议吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Al Jazeera",
+        "url": "https://aljazeera.com"
+      },
+      "outcomes": {
+        "yes": 0.22,
+        "no": 0.78
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "ele-001",
+      "category": "elections",
+      "question": "德国联邦议院选举将在2026年3月31日之前产生新任总理吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Deutsche Welle",
+        "url": "https://dw.com"
+      },
+      "outcomes": {
+        "yes": 0.65,
+        "no": 0.35
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "ele-002",
+      "category": "elections",
+      "question": "法国将在2026年3月31日之前举行提前议会选举吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Le Monde",
+        "url": "https://lemonde.fr"
+      },
+      "outcomes": {
+        "yes": 0.2,
+        "no": 0.8
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "ele-003",
+      "category": "elections",
+      "question": "巴西将在2026年3月31日之前宣布总统大选候选人名单吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Reuters",
+        "url": "https://reuters.com"
+      },
+      "outcomes": {
+        "yes": 0.48,
+        "no": 0.52
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "wec-001",
+      "category": "world-economy",
+      "question": "美联储将在2026年3月31日之前宣布降息吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Bloomberg",
+        "url": "https://bloomberg.com"
+      },
+      "outcomes": {
+        "yes": 0.38,
+        "no": 0.62
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "wec-002",
+      "category": "world-economy",
+      "question": "国际油价（布伦特原油）将在2026年3月31日之前突破每桶90美元吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Reuters",
+        "url": "https://reuters.com"
+      },
+      "outcomes": {
+        "yes": 0.33,
+        "no": 0.67
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "wec-003",
+      "category": "world-economy",
+      "question": "中国2026年第一季度GDP增速将在2026年3月31日之前被官方预测为超过5%吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Xinhua",
+        "url": "https://xinhuanet.com"
+      },
+      "outcomes": {
+        "yes": 0.55,
+        "no": 0.45
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "wec-004",
+      "category": "world-economy",
+      "question": "欧元区通胀率将在2026年3月31日之前降至欧央行2%目标以下吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "ECB",
+        "url": "https://ecb.europa.eu"
+      },
+      "outcomes": {
+        "yes": 0.45,
+        "no": 0.55
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "wec-005",
+      "category": "world-economy",
+      "question": "日本央行将在2026年3月31日之前再次上调基准利率吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Nikkei",
+        "url": "https://nikkei.com"
+      },
+      "outcomes": {
+        "yes": 0.4,
+        "no": 0.6
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "wec-006",
+      "category": "world-economy",
+      "question": "标普500指数将在2026年3月31日之前突破6000点吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Bloomberg",
+        "url": "https://bloomberg.com"
+      },
+      "outcomes": {
+        "yes": 0.52,
+        "no": 0.48
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "wec-007",
+      "category": "world-economy",
+      "question": "IMF将在2026年3月31日之前下调2026年全球经济增长预测吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "IMF",
+        "url": "https://imf.org"
+      },
+      "outcomes": {
+        "yes": 0.6,
+        "no": 0.4
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "wec-008",
+      "category": "world-economy",
+      "question": "美元指数（DXY）将在2026年3月31日之前跌破100点吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Reuters",
+        "url": "https://reuters.com"
+      },
+      "outcomes": {
+        "yes": 0.28,
+        "no": 0.72
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "cry-001",
+      "category": "crypto",
+      "question": "比特币价格将在2026年3月31日之前突破10万美元吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.58,
+        "no": 0.42
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "cry-002",
+      "category": "crypto",
+      "question": "以太坊价格将在2026年3月31日之前突破4000美元吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.45,
+        "no": 0.55
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "cry-003",
+      "category": "crypto",
+      "question": "美国SEC将在2026年3月31日之前批准以太坊现货ETF新申请吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Bloomberg",
+        "url": "https://bloomberg.com"
+      },
+      "outcomes": {
+        "yes": 0.35,
+        "no": 0.65
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "cry-004",
+      "category": "crypto",
+      "question": "加密货币总市值将在2026年3月31日之前超过4万亿美元吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinMarketCap",
+        "url": "https://coinmarketcap.com"
+      },
+      "outcomes": {
+        "yes": 0.4,
+        "no": 0.6
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "cry-005",
+      "category": "crypto",
+      "question": "Solana价格将在2026年3月31日之前突破300美元吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.38,
+        "no": 0.62
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "tec-001",
+      "category": "tech",
+      "question": "OpenAI将在2026年3月31日之前发布GPT-5正式版吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "The Verge",
+        "url": "https://theverge.com"
+      },
+      "outcomes": {
+        "yes": 0.5,
+        "no": 0.5
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "tec-002",
+      "category": "tech",
+      "question": "苹果公司将在2026年3月31日之前发布搭载AI功能的新款iPad吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "9to5Mac",
+        "url": "https://9to5mac.com"
+      },
+      "outcomes": {
+        "yes": 0.62,
+        "no": 0.38
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "tec-003",
+      "category": "tech",
+      "question": "Meta将在2026年3月31日之前发布新一代AR眼镜产品吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "TechCrunch",
+        "url": "https://techcrunch.com"
+      },
+      "outcomes": {
+        "yes": 0.3,
+        "no": 0.7
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "tec-004",
+      "category": "tech",
+      "question": "谷歌将在2026年3月31日之前在搜索引擎中全面推出AI Overview功能吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "The Verge",
+        "url": "https://theverge.com"
+      },
+      "outcomes": {
+        "yes": 0.7,
+        "no": 0.3
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "spo-001",
+      "category": "sports",
+      "question": "NBA将在2026年3月31日之前完成2025-26赛季常规赛吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "ESPN",
+        "url": "https://espn.com"
+      },
+      "outcomes": {
+        "yes": 0.72,
+        "no": 0.28
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "spo-002",
+      "category": "sports",
+      "question": "梅西将在2026年3月31日之前宣布参加2026年世界杯吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC Sport",
+        "url": "https://bbc.com/sport"
+      },
+      "outcomes": {
+        "yes": 0.45,
+        "no": 0.55
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "spo-003",
+      "category": "sports",
+      "question": "F1将在2026年3月31日之前完成2026赛季首站大奖赛吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Formula1",
+        "url": "https://formula1.com"
+      },
+      "outcomes": {
+        "yes": 0.85,
+        "no": 0.15
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    },
+    {
+      "id": "cul-001",
+      "category": "culture",
+      "question": "2026年奥斯卡最佳影片奖将在2026年3月31日之前颁出吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "Variety",
+        "url": "https://variety.com"
+      },
+      "outcomes": {
+        "yes": 0.9,
+        "no": 0.1
+      },
+      "volume": 50000,
+      "liquidity": 25000
+    }
+  ]
+}
