@@ -1,0 +1,485 @@
+{
+  "date": "2026-02-28",
+  "topics": [
+    {
+      "id": "pol-001",
+      "category": "politics",
+      "question": "英国内政大臣马哈茂德将在2026-03-31之前正式向议会提交移民改革法案吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.55,
+        "no": 0.45
+      },
+      "volume": 62000,
+      "liquidity": 31000
+    },
+    {
+      "id": "pol-002",
+      "category": "politics",
+      "question": "基尔·斯塔默将在2026-06-30之前仍担任英国首相吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.72,
+        "no": 0.28
+      },
+      "volume": 85000,
+      "liquidity": 42000
+    },
+    {
+      "id": "pol-003",
+      "category": "politics",
+      "question": "英国绿党将在2026-06-30之前再赢得至少一个补选席位吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.48,
+        "no": 0.52
+      },
+      "volume": 47000,
+      "liquidity": 23000
+    },
+    {
+      "id": "pol-004",
+      "category": "politics",
+      "question": "美国与伊朗将在2026-06-30之前就核计划达成正式框架协议吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.25,
+        "no": 0.75
+      },
+      "volume": 91000,
+      "liquidity": 45000
+    },
+    {
+      "id": "pol-005",
+      "category": "politics",
+      "question": "英国政府将在2026-03-31之前正式批准10亿英镑国防直升机采购协议吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.78,
+        "no": 0.22
+      },
+      "volume": 38000,
+      "liquidity": 19000
+    },
+    {
+      "id": "pol-006",
+      "category": "politics",
+      "question": "美国司法部将在2026-12-31之前因爱泼斯坦案对比尔·克林顿展开正式刑事调查吗？",
+      "endDate": "2026-12-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.12,
+        "no": 0.88
+      },
+      "volume": 73000,
+      "liquidity": 36000
+    },
+    {
+      "id": "ele-001",
+      "category": "elections",
+      "question": "英国绿党将在2026年底前将其议席数量扩大至5席以上吗？",
+      "endDate": "2026-12-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.42,
+        "no": 0.58
+      },
+      "volume": 56000,
+      "liquidity": 28000
+    },
+    {
+      "id": "ele-002",
+      "category": "elections",
+      "question": "工党将赢得2026-06-30之前举行的下一次英国议会补选吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.45,
+        "no": 0.55
+      },
+      "volume": 49000,
+      "liquidity": 24000
+    },
+    {
+      "id": "ele-003",
+      "category": "elections",
+      "question": "斯塔默的民调支持率将在2026-06-30之前回升至40%以上吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.32,
+        "no": 0.68
+      },
+      "volume": 41000,
+      "liquidity": 20000
+    },
+    {
+      "id": "wec-001",
+      "category": "world-economy",
+      "question": "华纳兄弟流媒体并购交易将在2026-06-30之前完成签约并宣布生效吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.58,
+        "no": 0.42
+      },
+      "volume": 67000,
+      "liquidity": 33000
+    },
+    {
+      "id": "wec-002",
+      "category": "world-economy",
+      "question": "玻利维亚政府将在2026-06-30之前追回军机坠毁事故中损失的全部钞票吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.18,
+        "no": 0.82
+      },
+      "volume": 29000,
+      "liquidity": 14000
+    },
+    {
+      "id": "wec-003",
+      "category": "world-economy",
+      "question": "美国参议院将在2026-06-30之前正式启动对币安非法金融活动的听证调查程序吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.52,
+        "no": 0.48
+      },
+      "volume": 83000,
+      "liquidity": 41000
+    },
+    {
+      "id": "wec-004",
+      "category": "world-economy",
+      "question": "美国财政部将在2026-06-30之前对币安发布新增制裁或合规限制措施吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.38,
+        "no": 0.62
+      },
+      "volume": 76000,
+      "liquidity": 38000
+    },
+    {
+      "id": "wec-005",
+      "category": "world-economy",
+      "question": "伊朗核谈判将在2026-06-30之前完全破裂并导致美国重启极限施压政策吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.42,
+        "no": 0.58
+      },
+      "volume": 95000,
+      "liquidity": 47000
+    },
+    {
+      "id": "wec-006",
+      "category": "world-economy",
+      "question": "华纳兄弟并购交易将在2026-12-31之前获得欧盟反垄断机构的正式批准吗？",
+      "endDate": "2026-12-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.55,
+        "no": 0.45
+      },
+      "volume": 52000,
+      "liquidity": 26000
+    },
+    {
+      "id": "wec-007",
+      "category": "world-economy",
+      "question": "英国2026年Q1实际GDP增速将超过1.5%吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.28,
+        "no": 0.72
+      },
+      "volume": 44000,
+      "liquidity": 22000
+    },
+    {
+      "id": "wec-008",
+      "category": "world-economy",
+      "question": "特朗普禁止政府使用Anthropic服务的命令将在2026-06-30之前被国会立法推翻吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.22,
+        "no": 0.78
+      },
+      "volume": 61000,
+      "liquidity": 30000
+    },
+    {
+      "id": "cry-001",
+      "category": "crypto",
+      "question": "比特币价格将在2026-03-31之前从65000美元回升至75000美元以上吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.48,
+        "no": 0.52
+      },
+      "volume": 120000,
+      "liquidity": 60000
+    },
+    {
+      "id": "cry-002",
+      "category": "crypto",
+      "question": "以太坊价格将在2026-03-31之前回升至3000美元以上吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.42,
+        "no": 0.58
+      },
+      "volume": 98000,
+      "liquidity": 49000
+    },
+    {
+      "id": "cry-003",
+      "category": "crypto",
+      "question": "Solana代币价格将在2026-03-31之前从本次下跌中回升至180美元以上吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.38,
+        "no": 0.62
+      },
+      "volume": 74000,
+      "liquidity": 37000
+    },
+    {
+      "id": "cry-004",
+      "category": "crypto",
+      "question": "美国司法部将在2026-06-30之前对币安提出新的正式刑事起诉吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.3,
+        "no": 0.7
+      },
+      "volume": 87000,
+      "liquidity": 43000
+    },
+    {
+      "id": "cry-005",
+      "category": "crypto",
+      "question": "Coinbase将在2026-12-31之前赢得针对各州预测市场限制的核心法律争议吗？",
+      "endDate": "2026-12-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.55,
+        "no": 0.45
+      },
+      "volume": 65000,
+      "liquidity": 32000
+    },
+    {
+      "id": "tec-001",
+      "category": "tech",
+      "question": "印度政府将在2026-06-30之前解除对开发者平台Supabase的访问封锁令吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.35,
+        "no": 0.65
+      },
+      "volume": 39000,
+      "liquidity": 19000
+    },
+    {
+      "id": "tec-002",
+      "category": "tech",
+      "question": "五角大楼将在2026-06-30之前正式将Anthropic列入供应链风险实体名单吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.58,
+        "no": 0.42
+      },
+      "volume": 55000,
+      "liquidity": 27000
+    },
+    {
+      "id": "tec-003",
+      "category": "tech",
+      "question": "特朗普将在2026-06-30之前撤销禁止政府使用Anthropic服务的行政命令吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.2,
+        "no": 0.8
+      },
+      "volume": 48000,
+      "liquidity": 24000
+    },
+    {
+      "id": "tec-004",
+      "category": "tech",
+      "question": "OpenAI将在2026-06-30之前因预测市场机密信息泄露事件受到联邦监管机构正式调查吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.25,
+        "no": 0.75
+      },
+      "volume": 43000,
+      "liquidity": 21000
+    },
+    {
+      "id": "spo-001",
+      "category": "sports",
+      "question": "阿斯顿维拉将在2025-26赛季英超联赛结束时排名前五吗？",
+      "endDate": "2026-05-31",
+      "source": {
+        "name": "BBC Sport",
+        "url": "https://bbc.com/sport"
+      },
+      "outcomes": {
+        "yes": 0.52,
+        "no": 0.48
+      },
+      "volume": 58000,
+      "liquidity": 29000
+    },
+    {
+      "id": "spo-002",
+      "category": "sports",
+      "question": "英格兰将赢得2026-03-31之前进行的下一场板球测试赛吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC Sport",
+        "url": "https://bbc.com/sport"
+      },
+      "outcomes": {
+        "yes": 0.65,
+        "no": 0.35
+      },
+      "volume": 46000,
+      "liquidity": 23000
+    },
+    {
+      "id": "spo-003",
+      "category": "sports",
+      "question": "奥列克桑德·乌苏克将在2026-06-30之前于埃及击败对手成功卫冕重量级拳王头衔吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC Sport",
+        "url": "https://bbc.com/sport"
+      },
+      "outcomes": {
+        "yes": 0.72,
+        "no": 0.28
+      },
+      "volume": 81000,
+      "liquidity": 40000
+    },
+    {
+      "id": "cul-001",
+      "category": "culture",
+      "question": "华纳兄弟并购交易将在2026-12-31之前导致英国至少一家主流院线连锁被收购或关闭吗？",
+      "endDate": "2026-12-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.38,
+        "no": 0.62
+      },
+      "volume": 33000,
+      "liquidity": 16000
+    }
+  ]
+}
