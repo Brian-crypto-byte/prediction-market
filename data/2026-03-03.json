@@ -1,0 +1,485 @@
+{
+  "date": "2026-03-03",
+  "topics": [
+    {
+      "id": "pol-001",
+      "category": "politics",
+      "question": "英国将在2026-03-31之前正式发表声明与美国伊朗政策立场划清界限吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.62,
+        "no": 0.38
+      },
+      "volume": 72000,
+      "liquidity": 36000
+    },
+    {
+      "id": "pol-002",
+      "category": "politics",
+      "question": "Starmer将在2026-03-31之前就中东政策在议会面临不信任动议吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.11,
+        "no": 0.89
+      },
+      "volume": 34000,
+      "liquidity": 17000
+    },
+    {
+      "id": "pol-003",
+      "category": "politics",
+      "question": "英国政府将在2026-03-31之前对伊朗实施新一轮单边制裁吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.58,
+        "no": 0.42
+      },
+      "volume": 55000,
+      "liquidity": 27500
+    },
+    {
+      "id": "pol-004",
+      "category": "politics",
+      "question": "超过10万在中东的英国公民将在2026-03-31之前完成政府协助撤离吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.29,
+        "no": 0.71
+      },
+      "volume": 48000,
+      "liquidity": 24000
+    },
+    {
+      "id": "pol-005",
+      "category": "politics",
+      "question": "英国将在2026-03-31之前向中东地区增派军事资产吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.44,
+        "no": 0.56
+      },
+      "volume": 61000,
+      "liquidity": 30500
+    },
+    {
+      "id": "pol-006",
+      "category": "politics",
+      "question": "议会将在2026-03-15之前就中东危机紧急召开辩论吗？",
+      "endDate": "2026-03-15",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.73,
+        "no": 0.27
+      },
+      "volume": 39000,
+      "liquidity": 19500
+    },
+    {
+      "id": "ele-001",
+      "category": "elections",
+      "question": "工党全国民调支持率将在2026-03-31之前跌破25%吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.21,
+        "no": 0.79
+      },
+      "volume": 57000,
+      "liquidity": 28500
+    },
+    {
+      "id": "ele-002",
+      "category": "elections",
+      "question": "将有至少一名工党议员在2026-03-31之前因中东政策公开辞党鞭吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.36,
+        "no": 0.64
+      },
+      "volume": 42000,
+      "liquidity": 21000
+    },
+    {
+      "id": "ele-003",
+      "category": "elections",
+      "question": "保守党将在2026-03-31之前就伊朗政策提出紧急动议并赢得议会支持吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.14,
+        "no": 0.86
+      },
+      "volume": 31000,
+      "liquidity": 15500
+    },
+    {
+      "id": "wec-001",
+      "category": "world-economy",
+      "question": "布伦特原油价格将在2026-03-31之前突破每桶$110吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.57,
+        "no": 0.43
+      },
+      "volume": 480000,
+      "liquidity": 240000
+    },
+    {
+      "id": "wec-002",
+      "category": "world-economy",
+      "question": "英国零售汽油价格将在2026-03-31之前超过每升£1.70吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.48,
+        "no": 0.52
+      },
+      "volume": 95000,
+      "liquidity": 47500
+    },
+    {
+      "id": "wec-003",
+      "category": "world-economy",
+      "question": "以色列将在2026-03-15之前对黎巴嫩发动大规模地面行动吗？",
+      "endDate": "2026-03-15",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.31,
+        "no": 0.69
+      },
+      "volume": 320000,
+      "liquidity": 160000
+    },
+    {
+      "id": "wec-004",
+      "category": "world-economy",
+      "question": "真主党将在2026-03-15之前向以色列发射超过500枚火箭弹吗？",
+      "endDate": "2026-03-15",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.45,
+        "no": 0.55
+      },
+      "volume": 275000,
+      "liquidity": 137500
+    },
+    {
+      "id": "wec-005",
+      "category": "world-economy",
+      "question": "印度与加拿大核能协议将在2026-03-31之前正式签署并生效吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.53,
+        "no": 0.47
+      },
+      "volume": 88000,
+      "liquidity": 44000
+    },
+    {
+      "id": "wec-006",
+      "category": "world-economy",
+      "question": "欧洲天然气价格将在2026-03-31之前突破每兆瓦时€55吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.42,
+        "no": 0.58
+      },
+      "volume": 210000,
+      "liquidity": 105000
+    },
+    {
+      "id": "wec-007",
+      "category": "world-economy",
+      "question": "中东冲突将在2026-03-31之前扩散至第三个国家（伊拉克、叙利亚或约旦）爆发直接交火吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.38,
+        "no": 0.62
+      },
+      "volume": 390000,
+      "liquidity": 195000
+    },
+    {
+      "id": "wec-008",
+      "category": "world-economy",
+      "question": "Brewdog被收购后将在2026-06-30之前裁员超过500人吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.33,
+        "no": 0.67
+      },
+      "volume": 27000,
+      "liquidity": 13500
+    },
+    {
+      "id": "cry-001",
+      "category": "crypto",
+      "question": "比特币将在2026-03-31之前突破$75,000吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.59,
+        "no": 0.41
+      },
+      "volume": 920000,
+      "liquidity": 460000
+    },
+    {
+      "id": "cry-002",
+      "category": "crypto",
+      "question": "比特币区块链「清理」提案（OP_RETURN限制）将在2026-03-31之前获得超过50%算力支持吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.24,
+        "no": 0.76
+      },
+      "volume": 145000,
+      "liquidity": 72500
+    },
+    {
+      "id": "cry-003",
+      "category": "crypto",
+      "question": "HyperLiquid（HYPE）代币价格将在2026-03-31之前突破$35吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.41,
+        "no": 0.59
+      },
+      "volume": 178000,
+      "liquidity": 89000
+    },
+    {
+      "id": "cry-004",
+      "category": "crypto",
+      "question": "美国国会将在2026-03-31之前通过稳定币利息奖励相关立法吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.17,
+        "no": 0.83
+      },
+      "volume": 112000,
+      "liquidity": 56000
+    },
+    {
+      "id": "cry-005",
+      "category": "crypto",
+      "question": "以太坊将在2026-03-31之前突破$3,200吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "CoinDesk",
+        "url": "https://coindesk.com"
+      },
+      "outcomes": {
+        "yes": 0.46,
+        "no": 0.54
+      },
+      "volume": 340000,
+      "liquidity": 170000
+    },
+    {
+      "id": "tec-001",
+      "category": "tech",
+      "question": "美国国防部将在2026-03-31之前正式撤销对Anthropic的供应链风险标签吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.28,
+        "no": 0.72
+      },
+      "volume": 98000,
+      "liquidity": 49000
+    },
+    {
+      "id": "tec-002",
+      "category": "tech",
+      "question": "X平台付费合作「Paid Partnership」标签功能将在2026-03-31之前向所有创作者全球开放吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.67,
+        "no": 0.33
+      },
+      "volume": 54000,
+      "liquidity": 27000
+    },
+    {
+      "id": "tec-003",
+      "category": "tech",
+      "question": "美国国土安全部将在2026-03-31之前正式确认ICE合同数据遭黑客攻击泄露吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.39,
+        "no": 0.61
+      },
+      "volume": 76000,
+      "liquidity": 38000
+    },
+    {
+      "id": "tec-004",
+      "category": "tech",
+      "question": "美国国会将在2026-03-31之前就Anthropic国防分类问题举行正式听证会吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.22,
+        "no": 0.78
+      },
+      "volume": 63000,
+      "liquidity": 31500
+    },
+    {
+      "id": "spo-001",
+      "category": "sports",
+      "question": "英格兰将在2026-03-31之前赢得对印度的当前板球测试系列赛吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.43,
+        "no": 0.57
+      },
+      "volume": 82000,
+      "liquidity": 41000
+    },
+    {
+      "id": "spo-002",
+      "category": "sports",
+      "question": "英超联赛将在2026-03-31之前宣布修改角球规则吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.16,
+        "no": 0.84
+      },
+      "volume": 37000,
+      "liquidity": 18500
+    },
+    {
+      "id": "spo-003",
+      "category": "sports",
+      "question": "中东局势将在2026-03-31之前导致至少3场欧洲顶级联赛赛事因球队行程受阻而延期吗？",
+      "endDate": "2026-03-31",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.35,
+        "no": 0.65
+      },
+      "volume": 44000,
+      "liquidity": 22000
+    },
+    {
+      "id": "cul-001",
+      "category": "culture",
+      "question": "Brewdog将在2026-06-30之前以新品牌名义重新开放至少一家被关闭的英国酒吧吗？",
+      "endDate": "2026-06-30",
+      "source": {
+        "name": "BBC",
+        "url": "https://bbc.com"
+      },
+      "outcomes": {
+        "yes": 0.31,
+        "no": 0.69
+      },
+      "volume": 19000,
+      "liquidity": 9500
+    }
+  ]
+}
